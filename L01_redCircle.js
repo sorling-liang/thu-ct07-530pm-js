@@ -1,9 +1,11 @@
 function setup(){
-    createCanvas(600, 400);
-    background(220);
+    createCanvas(400, 600);
+    background('gray');
 }
 
 function draw(){
-    fill(255, 0, 0);
+    fill('red');
+    noStroke();
+    //       x   y   w   h
     ellipse(300,200,200,200);
 }

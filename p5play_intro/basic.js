@@ -32,7 +32,7 @@ function setup() {
   // infant: 0 - 2
   // toddler: 3 - 4
   // child: 5 - 8
-  
+  // junior: 9 - 15
 
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here

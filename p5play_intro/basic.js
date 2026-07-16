@@ -7,6 +7,8 @@ function setup() {
   // write your codes here
   let base = 100;
   let height = 200;
+  let areaTriangle = base * height * 0.5;
+  
 
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here

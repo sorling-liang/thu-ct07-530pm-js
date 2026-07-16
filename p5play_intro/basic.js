@@ -34,7 +34,9 @@ function setup() {
   // child: 5 - 13
   // teen: 14 - 18
   // adult: above 19
-  if (myAge >0 )
+  if (myAge >0 && myAge < 2) {
+    console.log("I am a infant");
+  }
 
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here

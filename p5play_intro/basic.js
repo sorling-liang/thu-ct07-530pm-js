@@ -13,7 +13,7 @@ function setup() {
   textSize(16);
   text("the area of a triangle is "+ areaTriangle, 50, 100);
 
-  for (let i=3; i <=46 ; i+=2) {
+  for (let i=2; i <=20 ; i+=2) {
     //   sometext, x,  y
     //text(i,      50, 120+(i*10));
     console.log(i);

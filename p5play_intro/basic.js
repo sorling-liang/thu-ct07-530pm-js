@@ -11,7 +11,7 @@ function setup() {
   console.log("the area of a triangle is ", areaTriangle);
 
   textSize(16);
-  text("", 300, 300);
+  text("the area of a triangle is "+ areaTriangle, 300, 300);
 
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here

@@ -31,6 +31,9 @@ function draw() {
   // write your codes here
   background(220);
 
+  /*
+  
+  */
   textSize(16);
   text("Ball: " + round(ball.x) + "," + round(ball.y), 20, 50);
   text("Ball: " + ball.diameter,                       20, 80);

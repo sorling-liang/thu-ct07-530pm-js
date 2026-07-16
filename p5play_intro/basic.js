@@ -8,7 +8,7 @@ function setup() {
   let base = 50;
   let height = 80;
   let areaTriangle = base * height * 0.5;
-  console.log("the area of a triangle is ", areaTriangle);
+  console.log("the area of a triangle is "+ areaTriangle);
 
   textSize(16);
   text("the area of a triangle is "+ areaTriangle, 50, 100);

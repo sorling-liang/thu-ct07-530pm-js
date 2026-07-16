@@ -38,6 +38,7 @@ function draw() {
   rect(100, 100, 50, 50);
 
   
+  fill("black");
   textSize(16);
   text("Ball: " + round(ball.x) + "," + round(ball.y), 20, 50);
   text("Ball: " + ball.diameter,                       20, 80);

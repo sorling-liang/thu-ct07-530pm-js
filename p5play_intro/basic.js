@@ -22,7 +22,7 @@ function setup() {
   }
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
-  text("sum is "+ total, 50, )
+  text("sum is "+ total, 50, 200);
 
 
 

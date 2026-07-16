@@ -35,7 +35,7 @@ function draw() {
   p5.js shapes here
   */
   fill("orange");
-  rect(100, 100, 150, 50);
+  rect(100, 100, 150, 250);
 
 
   fill("black");

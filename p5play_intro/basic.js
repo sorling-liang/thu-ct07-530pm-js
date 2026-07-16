@@ -14,7 +14,7 @@ function setup() {
   text("the area of a triangle is "+ areaTriangle, 50, 100);
 
   for (let i=20; i >0 ; i-=1) {
-    text(i, 50, 120+(i*10));
+    text(i, 50, 120+(i*20));
   }
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here

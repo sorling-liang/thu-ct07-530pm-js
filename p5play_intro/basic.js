@@ -29,7 +29,7 @@ function setup() {
   // --- Exercise: Age category classification ---
   // write your codes here
   let myAge = 11;
-  // junior 
+  // child: 
 
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here

@@ -15,7 +15,8 @@ function setup() {
 
   for (let i=3; i <=46 ; i+=3) {
     //   sometext, x, y
-    text(i, 50, 120+(i*10));
+    //text(i,      50, 120+(i*10));
+    console.log(i);
   }
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here

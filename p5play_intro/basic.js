@@ -13,7 +13,7 @@ function setup() {
   textSize(16);
   text("the area of a triangle is "+ areaTriangle, 50, 100);
 
-  for (let i=3; i <=46; i+=3) {
+  for (let i=20; i >0 ; i--) {
     text(i, 50, 120+(i*10));
   }
   // --- Exercise: Sum of first 10 even numbers ---

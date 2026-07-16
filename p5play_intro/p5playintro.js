@@ -36,7 +36,7 @@ function draw() {
   */
   fill("orange");
   ellipse(200, 200, 75, 75);
-  rect(100, 100, 150, 250);
+  rect(100, 100, 150, 50);
 
 
   fill("black");

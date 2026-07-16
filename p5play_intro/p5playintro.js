@@ -34,9 +34,10 @@ function draw() {
   /*
   p5.js shapes here
   */
-
+  fill("orange");
   rect(100, 100, 50, 50);
 
+  
   textSize(16);
   text("Ball: " + round(ball.x) + "," + round(ball.y), 20, 50);
   text("Ball: " + ball.diameter,                       20, 80);

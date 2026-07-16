@@ -18,6 +18,7 @@ function setup() {
     //   sometext, x,  y
     //text(i,      50, 120+(i*10));
     console.log(i);
+    total = total + i;
   }
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here

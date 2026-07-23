@@ -3,7 +3,7 @@ let bird, floor;
 let flapMidImg, bg, base;
 
 function preload() {
-
+    // bird image, background, and the floor
 }
 
 

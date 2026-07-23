@@ -6,8 +6,8 @@ function setup() {
   // --- Exercise: Area of Triangle ---
   // write your codes here
   let base = 50;
-  let height = 80;
-  let areaTriangle = base * height * 0.5;
+  let ht = 80;
+  let areaTriangle = base * ht * 0.5;
   console.log("the area of a triangle is "+ areaTriangle);
 
   textSize(16);

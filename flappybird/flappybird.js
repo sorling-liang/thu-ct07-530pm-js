@@ -1,6 +1,6 @@
 // the final game
 let bird, floor;
-let flapMidImg, 
+let flapMidImg, bg, base;
 
 
 function setup() {

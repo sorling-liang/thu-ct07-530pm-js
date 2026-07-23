@@ -21,7 +21,7 @@ function setup() {
     bird.img = flapMidImg;
 
     bird.collider = "dynamic";
-    bird.bounciness = 0.77;
+    bird.bounciness = 0.77; // stop here
 
     let floor = new Sprite();
     floor.width = 200;

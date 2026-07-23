@@ -4,7 +4,9 @@ let flapMidImg, bg, base;
 
 function preload() {
     // bird image, background, and the floor
-    flapMidImg = loadImage('assets/yellow');
+    flapMidImg = loadImage('assets/yellowbird-midflap.png');
+    bg = loadImage('assets/background-day.png');
+    base = loadImage('');
 }
 
 

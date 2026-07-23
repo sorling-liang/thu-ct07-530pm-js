@@ -6,7 +6,7 @@ function preload() {
     // bird image, background, and the floor
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
     bg = loadImage('assets/background-day.png');
-    base = loadImage('');
+    base = loadImage('assets/base.png');
 }
 
 

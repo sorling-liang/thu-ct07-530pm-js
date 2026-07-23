@@ -26,7 +26,8 @@ function setup() {
     let floor = new Sprite();
     floor.width = 200;
     floor.y = 500;
-    floor.
+    floor.collider = "static";
+    
     world.gravity.y = 10;
 }
 

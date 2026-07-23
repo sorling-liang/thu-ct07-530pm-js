@@ -16,5 +16,6 @@ function setup() {
 }
 
 function draw() {
-
+    // test if bg is okay
+    
 }

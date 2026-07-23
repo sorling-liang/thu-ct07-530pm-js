@@ -15,7 +15,7 @@ function setup() {
     background("white");
 
     bird = new Sprite();
-    bird.diameter = 50;
+    bird.img = flapMidImg;
 }
 
 function draw() {

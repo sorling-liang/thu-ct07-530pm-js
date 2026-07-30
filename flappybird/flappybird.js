@@ -44,4 +44,7 @@ function draw() {
         bird.vel.y = -7;
         bird.sleeping = false; // wake up the bird
     }
+    if ( mouse.presses() ) {
+        
+    }
 }

@@ -14,14 +14,14 @@ function setup() {
     background("white");
 
     bird = new Sprite();
-    bird.x = width/2;
+    bird.x = width /2;
     bird.y = 200;
     bird.width = 30;
     bird.height = 30;
     bird.img = flapMidImg;
 
     bird.collider = "dynamic";
-    bird.bounciness = 0.77; // stop here slide 19 lesson 4
+    bird.bounciness = 0.5; // stop here slide 19 lesson 4
 
     let floor = new Sprite();
     floor.width = 200;

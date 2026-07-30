@@ -27,6 +27,7 @@ function setup() {
     floor.width = 400;
     floor.y = 500;
     floor.collider = "static";
+    floor.img = base;
 
     world.gravity.y = 10; // gravity pulls the sprite
 }

@@ -61,7 +61,8 @@ function draw() {
     // }
 
     if (bird.vel.y < -1) {
-
+        // heading up
+        bird.img = flap
     }
     else if (bird.vel.y < -1) {
 

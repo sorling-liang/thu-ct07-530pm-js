@@ -81,3 +81,7 @@ function draw() {
         bird.rotation = 0;
     }
 }
+
+function spawnPipePair() {
+    
+}

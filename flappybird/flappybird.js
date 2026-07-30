@@ -59,4 +59,6 @@ function draw() {
         let s = new Sprite(mouseX, mouseY, 35);
         s.collider = "dynamic";
     }
+
+    i
 }

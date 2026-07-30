@@ -5,12 +5,12 @@ let flapUpImg, flapDownImg;
 
 function preload() {
     // bird image, background, and the floor
-    flapMidImg = loadImage('assets/yellowbird-midflap.png');
+    flapMidImg = loadImage('assets/redbird-midflap.png');
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
 
-    flapUpImg = loadImage('assets/yellowbird-upflap.png');
-    flapDownImg = loadImage('assets/yellowbird-downflap.png');
+    flapUpImg = loadImage('assets/redbird-upflap.png');
+    flapDownImg = loadImage('assets/redbird-downflap.png');
 
 }
 

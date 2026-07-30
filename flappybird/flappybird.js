@@ -3,6 +3,9 @@ let bird, floor;
 let flapMidImg, bg, base;
 let flapUpImg, flapDownImg;
 
+let pipeGroup;
+
+
 function preload() {
     // bird image, background, and the floor
     flapMidImg = loadImage('assets/redbird-midflap.png');

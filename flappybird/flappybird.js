@@ -81,7 +81,7 @@ function draw() {
         bird.rotation = 0;
     }
 
-
+    // for testing
     if ( frameCount === 1 ) {
         spawnPipePair();
     }

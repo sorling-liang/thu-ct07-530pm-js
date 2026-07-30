@@ -16,7 +16,7 @@ function preload() {
     flapUpImg = loadImage('assets/redbird-upflap.png');
     flapDownImg = loadImage('assets/redbird-downflap.png');
 
-    pipe = loadImage('assets/');
+    pipe = loadImage('assets/pipe-green.png');
 }
 
 function setup() {

@@ -54,6 +54,7 @@ function draw() {
     //                                        x   y
     text("bird.sleeping: " + bird.sleeping  , 20, 40);
     text("bird.vel.y: " + round(bird.vel.y) , 20, 60);
+    text("frameCount = " + frameCount       , )
 
     if ( kb.presses("space") ) {
         bird.vel.y = -7;

@@ -44,6 +44,7 @@ function draw() {
     textSize(14);
     //                                        x   y
     text("bird.sleeping: " + bird.sleeping  , 20, 40);
+    text("bird.vel.y" + bird.vel.y )
 
     if ( kb.presses("space") ) {
         bird.vel.y = -7;

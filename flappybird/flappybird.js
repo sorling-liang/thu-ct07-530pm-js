@@ -80,8 +80,14 @@ function draw() {
         bird.img = flapMidImg;
         bird.rotation = 0;
     }
+
+
+
+
+    
 }
 
+// top pipe and bottom pipe
 function spawnPipePair() {
-    
+
 }

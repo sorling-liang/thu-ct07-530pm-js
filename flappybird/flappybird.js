@@ -42,7 +42,7 @@ function setup() {
 
     world.gravity.y = 10; // gravity pulls the sprite
 
-    pipeGroup = new Group();
+    pipeGroup = new Group(); // for easy ma
 }
 
 function draw() {

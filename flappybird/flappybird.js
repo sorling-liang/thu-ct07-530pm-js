@@ -26,7 +26,6 @@ function setup() {
     let floor = new Sprite();
     floor.x = 200;
     floor.width = 400;
-    floor.y = 500;
     floor.collider = "static";
     floor.img = base;
 

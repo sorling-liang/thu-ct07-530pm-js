@@ -4,7 +4,7 @@ let flapMidImg, bg, base;
 let flapUpImg, flapDownImg;
 
 let pipeGroup;
-let pipe;
+let pipe; // for pipe image
 let bottomPipe, topPipe;
 
 function preload() {

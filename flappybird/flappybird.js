@@ -25,7 +25,7 @@ function setup() {
     bird.drag = 0.02;
     bird.bounciness = 0.5;
 
-    let floor = new Sprite();
+    floor = new Sprite();
     floor.x = 200;
     floor.y = height -20;
     floor.width = 400;

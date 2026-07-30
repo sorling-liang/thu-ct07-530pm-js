@@ -65,5 +65,8 @@ function draw() {
     }
     else if (bird.vel.y < -1) {
 
-    }    
+    }
+    else {
+        
+    }
 }

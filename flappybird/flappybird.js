@@ -41,6 +41,7 @@ function draw() {
     image(bg, 0, 0, width, height); // draw the background
 
     if ( kb.presses("space") ) {
-
+        bird.vel.y = -10;
+        bird.sleeping = false; // wake up the bird
     }
 }

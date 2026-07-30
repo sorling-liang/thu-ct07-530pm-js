@@ -55,10 +55,15 @@ function draw() {
         bird.sleeping = false; // wake up the bird
     }
     // just for fun
-    if ( mouse.presses() ) {
-        let s = new Sprite(mouseX, mouseY, 35);
-        s.collider = "dynamic";
-    }
+    // if ( mouse.presses() ) {
+    //     let s = new Sprite(mouseX, mouseY, 35);
+    //     s.collider = "dynamic";
+    // }
 
-    i
+    if (bird.vel.y < -1) {
+
+    }
+    else if (bird.vel.y < -1) {
+
+    }    
 }

@@ -62,7 +62,8 @@ function draw() {
 
     if (bird.vel.y < -1) {
         // heading up
-        bird.img = flap
+        bird.img = flapUpImg;
+        bird.rotation = -30;
     }
     else if (bird.vel.y < -1) {
 

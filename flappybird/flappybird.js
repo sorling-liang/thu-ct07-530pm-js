@@ -82,9 +82,11 @@ function draw() {
     }
 
 
+    if ( frameCount === 1 ) {
+        spawnPipePair();
+    }
 
 
-    
 }
 
 // top pipe and bottom pipe

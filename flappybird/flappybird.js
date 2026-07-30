@@ -23,7 +23,7 @@ function setup() {
     bird.collider = "dynamic";
     bird.mass = 2; // weight
     bird.drag = 0.02; // air resistance
-    bird.bounciness = 0.5; // 
+    bird.bounciness = 0.5; // does it bounce or not?
 
     floor = new Sprite();
     floor.x = 200;

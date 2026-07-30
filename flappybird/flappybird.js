@@ -101,5 +101,5 @@ function spawnPipePair() {
     bottomPipe.img = pipe;
 
     pipeGroup.add(bottomPipe);
-    pipeGroup.layer(0)
+    pipeGroup.layer = 0; // go behind all
 }

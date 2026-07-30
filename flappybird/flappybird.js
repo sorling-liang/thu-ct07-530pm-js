@@ -24,6 +24,7 @@ function setup() {
     bird.bounciness = 0.5; // stop here slide 19 lesson 4
 
     let floor = new Sprite();
+    floor.x = 200;
     floor.width = 400;
     floor.y = 500;
     floor.collider = "static";

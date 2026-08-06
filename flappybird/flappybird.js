@@ -59,7 +59,7 @@ function draw() {
     text("bird.vel.y: " + round(bird.vel.y) , 20, 60);
     text("frameCount = " + frameCount       , 20, 80);
 
-    if ( kb.presses("space") ) {
+    if ( kb.presses("space") || ) {
         bird.vel.y = -7;
         bird.sleeping = false; // wake up the bird
     }
@@ -112,6 +112,6 @@ function spawnPipePair() {
 
     pipeGroup.add(topPipe);
 
-    
+
     pipeGroup.layer = 0; // go behind other sprites
 }

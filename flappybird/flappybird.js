@@ -108,6 +108,7 @@ function draw() {
 
     // check for collision
     if ( bird.collides(floor) || bird.collides(pipeGroup) ) {
+        gameOverLabel = new Sprite(bird.x, )
         noLoop();
     }
     if ( bird.y < 0 ) {

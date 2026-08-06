@@ -58,7 +58,7 @@ function draw() {
     text("bird.sleeping: " + bird.sleeping  , 20, 40);
     text("bird.vel.y: " + round(bird.vel.y) , 20, 60);
     text("frameCount = " + frameCount       , 20, 80);
-    text("pipeGroup.length = " + pipeGroup.length, )
+    text("pipeGroup.length = " + pipeGroup.length, 20, 100);
 
     if ( kb.presses("space") || mouse.presses() ) {
         bird.vel.y = -5;

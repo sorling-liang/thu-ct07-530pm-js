@@ -43,7 +43,7 @@ function setup() {
     floor.collider = "static"; // does not respond gravity
     floor.img = base;
 
-    world.gravity.y = 10; // gravity pulls the sprite
+    world.gravity.x = 10; // gravity pulls the sprite
 
     pipeGroup = new Group(); // for easy management of many pipes
 }

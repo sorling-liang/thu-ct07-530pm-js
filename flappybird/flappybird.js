@@ -104,8 +104,8 @@ function draw() {
 
 
     // check for collision
-    if (bird.collides() || bird.collides() ) {
-        
+    if ( bird.collides(floor) || bird.collides(pipeGroup) ) {
+
     }
 
 }

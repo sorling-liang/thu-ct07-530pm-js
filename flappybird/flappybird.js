@@ -86,7 +86,7 @@ function draw() {
     }
 
     // for testing (only lesson 5)
-    if ( frameCount % 90 === 0 ) {
+    if ( frameCount % 120 === 0 ) {
         spawnPipePair(); // every 1.5 seconds
     }
 
@@ -105,7 +105,7 @@ function draw() {
 
 // top pipe and bottom pipe
 function spawnPipePair() {
-    let gap = random(80, 150); // space between top and bottom pipe
+    let gap = random(50, 150); // space between top and bottom pipe
     let midY = random(250, 400); // middle point between top and bottom pipe
 
     let someY = midY + gap/2 + 200;

@@ -91,7 +91,9 @@ function draw() {
 
     // clean up the pipes
     for (let p of pipeGroup) {
-        if (p.x < bird.x - 200))
+        if (p.x < (bird.x - 200)) {
+            p.remove();  // remove from the obstacles
+        }
     }
 
     // camera scrolling

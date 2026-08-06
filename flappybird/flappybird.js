@@ -8,7 +8,7 @@ let pipe; // for pipe image
 let bottomPipe, topPipe;
 
 let gameOverImg, gameOverLabel;
-let startScreenImg;
+let startScreenImg, startScreenLabel;
 
 function preload() {
     // bird image, background, and the floor
@@ -21,7 +21,7 @@ function preload() {
 
     pipe = loadImage('assets/pipe-green.png');
     gameOverImg = loadImage('assets/gameover.png');
-    
+
     startScreenImg = loadImage('assets/message.png');
 }
 

@@ -7,7 +7,8 @@ let pipeGroup;
 let pipe; // for pipe image
 let bottomPipe, topPipe;
 
-let game
+let gameOverImg, gameOverLabel;
+
 function preload() {
     // bird image, background, and the floor
     flapMidImg = loadImage('assets/redbird-midflap.png');

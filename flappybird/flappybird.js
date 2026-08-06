@@ -86,11 +86,13 @@ function draw() {
 
     // for testing (only lesson 5)
     if ( frameCount % 90 === 0 ) {
-        spawnPipePair();
+        spawnPipePair(); // every 1.5 seconds
     }
 
     // clean up the pipes
-    for (let p of p)
+    for (let p of pipeGroup) {
+        if (p.x < bird.x - 200))
+    }
 
     // camera scrolling
     bird.x = bird.x + 3; // bird move towards the right side

@@ -105,7 +105,7 @@ function draw() {
 
     // check for collision
     if ( bird.collides(floor) || bird.collides(pipeGroup) ) {
-
+        noLoop();
     }
 
 }

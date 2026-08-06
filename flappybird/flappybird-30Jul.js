@@ -107,7 +107,7 @@ function spawnPipePair() {
 
     topPipe = new Sprite(400, someY, 52, 320, 'static');
     topPipe.img = pipe;
-    top
+    topPipe.rotation = 180;
 
     pipeGroup.add(topPipe);
     pipeGroup.layer = 0; // go behind other sprites

@@ -106,7 +106,7 @@ function draw() {
 // top pipe and bottom pipe
 function spawnPipePair() {
     let gap = 100;
-    let midY = height /2;
+    let midY = random(250, 350);
 
     let someY = midY + gap/2 + 200;
 

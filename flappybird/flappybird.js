@@ -8,6 +8,7 @@ let pipe; // for pipe image
 let bottomPipe, topPipe;
 
 let gameOverImg, gameOverLabel;
+let startScreenImg;
 
 function preload() {
     // bird image, background, and the floor

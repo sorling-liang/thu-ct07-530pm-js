@@ -101,6 +101,10 @@ function draw() {
     bird.x = bird.x + 2.5; // bird move towards the right side
     camera.x = bird.x; // camera to follow the bird
     floor.x = bird.x; // floor also follow the bird
+
+
+    // check for collision
+
 }
 
 // top pipe and bottom pipe

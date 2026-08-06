@@ -59,7 +59,7 @@ function draw() {
     text("bird.vel.y: " + round(bird.vel.y) , 20, 60);
     text("frameCount = " + frameCount       , 20, 80);
 
-    if ( kb.presses("space") || ) {
+    if ( kb.presses("space") || mouse.presses() ) {
         bird.vel.y = -7;
         bird.sleeping = false; // wake up the bird
     }

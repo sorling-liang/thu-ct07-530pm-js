@@ -54,10 +54,10 @@ function draw() {
 
     fill("blue");
     textSize(14);
-    //   debugging of the variables            x   y
-    text("bird.sleeping: " + bird.sleeping  , 20, 40);
-    text("bird.vel.y: " + round(bird.vel.y) , 20, 60);
-    text("frameCount = " + frameCount       , 20, 80);
+    //   debugging of the variables                x   y
+    text("bird.sleeping: " + bird.sleeping       , 20, 40);
+    text("bird.vel.y: " + round(bird.vel.y)      , 20, 60);
+    text("frameCount = " + frameCount            , 20, 80);
     text("pipeGroup.length = " + pipeGroup.length, 20, 100);
 
     if ( kb.presses("space") || mouse.presses() ) {

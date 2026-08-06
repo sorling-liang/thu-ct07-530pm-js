@@ -89,6 +89,7 @@ function draw() {
         spawnPipePair();
     }
 
+    // camera scrolling
 
 }
 

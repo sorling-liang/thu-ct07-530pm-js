@@ -98,7 +98,7 @@ function draw() {
     }
 
     // camera scrolling
-    bird.x = bird.x + 2; // bird move towards the right side
+    bird.x = bird.x + 3; // bird move towards the right side
     camera.x = bird.x; // camera to follow the bird
     floor.x = bird.x; // floor also follow the bird
 }

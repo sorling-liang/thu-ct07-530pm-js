@@ -109,7 +109,7 @@ function spawnPipePair() {
 
     let someY = midY + gap/2 + 200;
 
-
+    // ahead of the bird: bird.x + 400
     bottomPipe = new Sprite(bird.x + 400, someY, 52, 320, 'static');
     bottomPipe.img = pipe;
     pipeGroup.add(bottomPipe);

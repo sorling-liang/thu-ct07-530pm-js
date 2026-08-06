@@ -89,6 +89,9 @@ function draw() {
         spawnPipePair();
     }
 
+    // clean up the pipes
+    for (let p of p)
+
     // camera scrolling
     bird.x = bird.x + 3; // bird move towards the right side
     camera.x = bird.x; // camera to follow the bird

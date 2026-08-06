@@ -54,7 +54,7 @@ function draw() {
 
     fill("blue");
     textSize(14);
-    //                                        x   y
+    //   debugging of the variables            x   y
     text("bird.sleeping: " + bird.sleeping  , 20, 40);
     text("bird.vel.y: " + round(bird.vel.y) , 20, 60);
     text("frameCount = " + frameCount       , 20, 80);

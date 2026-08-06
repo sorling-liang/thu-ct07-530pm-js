@@ -108,7 +108,7 @@ function draw() {
         noLoop();
     }
     if ( bird.y < 0 ) {
-        bird.y = 5;
+        bird.y = 15;
         noLoop();
     }
 

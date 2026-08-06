@@ -115,6 +115,10 @@ function draw() {
     }
     if ( bird.y < 0 ) {
         bird.y = 15;
+
+        gameOverLabel = new Sprite(bird.x, height/2, 50, 50, "none");
+        gameOverLabel.img = gameOverImg;
+        gameOverLabel.layer = 100; // frontmost
         noLoop();
     }
 

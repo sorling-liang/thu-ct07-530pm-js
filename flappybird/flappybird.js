@@ -98,8 +98,7 @@ function spawnPipePair() {
     let midY = height /2;
 
     let someY = midY + gap/2 + 200;
-    
-    pipeGroup.layer = 0; // go behind other sprites
+
 
     bottomPipe = new Sprite(400, someY, 52, 320, 'static');
     bottomPipe.img = pipe;
@@ -114,5 +113,5 @@ function spawnPipePair() {
 
     pipeGroup.add(topPipe);
 
-
+    pipeGroup.layer = 0; // go behind other sprites
 }

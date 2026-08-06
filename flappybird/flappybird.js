@@ -91,7 +91,7 @@ function draw() {
 
     // camera scrolling
     bird.x = bird.x + 3;
-    
+    camera.x = bird.x;
 }
 
 // top pipe and bottom pipe

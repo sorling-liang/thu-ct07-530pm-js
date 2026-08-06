@@ -104,6 +104,9 @@ function draw() {
 
 
     // check for collision
+    if (bird.collides() || bird.collides() ) {
+        
+    }
 
 }
 

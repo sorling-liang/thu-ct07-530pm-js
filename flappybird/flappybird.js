@@ -80,8 +80,7 @@ function draw() {
         startScreenLabel.visible = false;
         // revert the bird
         bird.visible = true;
-        bird
-
+        bird.collider = "dynamic"; // the bird can start falling
     }
 
     if (!startGame) {

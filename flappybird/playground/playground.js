@@ -19,6 +19,8 @@ function setup() {
     background("skyblue");
 
     bird = new Sprite();
+    bird.w = 25;
+    bird.h = 25;
     bird.img = flapMidImg;
     bird.bounciness = 0.7;
     bird.debug = true; // show me the hitbox

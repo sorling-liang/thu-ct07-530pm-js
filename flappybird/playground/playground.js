@@ -7,7 +7,8 @@ function preload() {
 
 // task 2: create a canvas
 function setup() {
-
+    new Canvas(400, 600);
+    background("skyblue");
 }
 
 function draw() {

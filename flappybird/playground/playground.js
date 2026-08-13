@@ -58,7 +58,7 @@ function draw() {
         bird.vel.y = -5;
     }
     if (mouse.presses()) {
-        let s = new Sprite();
+        let s = new Sprite(mouse.x, mouse.y);
         s.diameter = 25;
     }
 }

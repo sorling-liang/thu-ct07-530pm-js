@@ -34,5 +34,5 @@ function setup() {
 }
 
 function draw() {
-    background("skyblue");
+    background("black");
 }

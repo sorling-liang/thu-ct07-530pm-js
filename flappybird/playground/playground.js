@@ -44,6 +44,10 @@ function setup() {
 
 function draw() {
     background("skyblue"); // erase the trail of the falling bird
+
+    fill("red");
+    textSize(14);
+    text("the text", 50, 50);
     
     if (kb.presses("space")) {
         bird.sleeping = false;

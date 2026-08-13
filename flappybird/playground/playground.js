@@ -13,6 +13,7 @@ function preload() {
 }
 
 // task 2: create a canvas
+// task 4: add gravity
 function setup() {
     new Canvas(400, 600);
     background("skyblue");

@@ -72,7 +72,9 @@ function draw() {
     startScreenLabel = new Sprite(width/2, height/2, 50, 50, "none");
     startScreenLabel.img = startScreenImg;
 
-
+    if (!startGame) {
+        return;
+    }
 
     if ( kb.presses("space") || mouse.presses() ) {
         bird.vel.y = -5;

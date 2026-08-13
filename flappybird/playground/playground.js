@@ -42,7 +42,7 @@ function setup() {
 // 3. canvas height
 // 4. bird.sleeping
 
-// task 7: add the mouse click event, to create new circle sprite that drops
+// task 7: add the mouse click event, to create new circle sprite that drops at mouse X and Y
 function draw() {
     background("skyblue"); // erase the trail of the falling bird
 

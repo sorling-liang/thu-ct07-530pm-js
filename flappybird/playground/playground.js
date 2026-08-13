@@ -1,6 +1,8 @@
 // write your codes here
 // task 3:
-// ge
+// show me a bird sprite
+// show me a floor sprite with base.png
+
 // task 1: write 3 functions needed for p5play
 function preload() {
 

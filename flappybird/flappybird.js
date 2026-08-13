@@ -54,6 +54,10 @@ function setup() {
     world.gravity.y = 10; // gravity pulls the sprite
 
     pipeGroup = new Group(); // for easy management of many pipes
+
+        //                                x     y        w   h    collider
+    startScreenLabel = new Sprite(width/2, height/2, 50, 50, "none");
+    startScreenLabel.img = startScreenImg;
 }
 
 function draw() {
@@ -68,9 +72,7 @@ function draw() {
     text("frameCount = " + frameCount            , 20, 80);
     text("pipeGroup.length = " + pipeGroup.length, 20, 100);
 
-    //                                x     y        w   h    collider
-    startScreenLabel = new Sprite(width/2, height/2, 50, 50, "none");
-    startScreenLabel.img = startScreenImg;
+
 
     if (!startGame) {
         return; // statement will not continue the next line

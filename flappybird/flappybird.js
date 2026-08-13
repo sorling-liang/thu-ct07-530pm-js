@@ -10,7 +10,7 @@ let bottomPipe, topPipe;
 let gameOverImg, gameOverLabel;
 let startScreenImg, startScreenLabel;
 
-let 
+let startGame = false;
 
 function preload() {
     // bird image, background, and the floor

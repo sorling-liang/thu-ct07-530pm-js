@@ -8,7 +8,7 @@ let flapMidImg, base;
 
 // task 1: write 3 functions needed for p5play
 function preload() {
-
+    f
 }
 
 // task 2: create a canvas

@@ -48,8 +48,8 @@ function draw() {
     fill("red");
     textSize(14);
     text("frameCount= " + frameCount, 50, 50);
-    text("canvas width= " + frameCount, 50, 70);
-    text("canvas height= " + frameCount, 50, 90);
+    text("canvas width= " + width,    50, 70);
+    text("canvas height= " + height,  50, 90);
     text("frameCount= " + frameCount, 50, 110);
     
     if (kb.presses("space")) {

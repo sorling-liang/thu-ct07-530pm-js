@@ -118,7 +118,9 @@ function draw() {
         // what is this line for?
         noLoop();
     }
-    
+
+    // suggestion from Nathan
+    // if bird hits the top, also game over for player
     if ( bird.y < 0 ) {
         bird.y = 15;
 

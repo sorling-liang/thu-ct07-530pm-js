@@ -16,6 +16,9 @@ function preload() {
 function setup() {
     new Canvas(400, 600);
     background("skyblue");
+
+    bird = new Sprite();
+    bird.img = fl
 }
 
 function draw() {

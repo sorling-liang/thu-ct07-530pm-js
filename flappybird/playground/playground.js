@@ -22,6 +22,7 @@ function setup() {
 
     floor = new Sprite();
     floor.img = base;
+    floor.y = height -25;
 }
 
 function draw() {

@@ -38,5 +38,8 @@ function setup() {
 // task 5: add the keyboard events to control the bird
 function draw() {
     background("skyblue"); // erase the trail of the falling bird
-    if (kb.presses("space")) 
+    if (kb.presses("space")) {
+        bird.sleeping = false;
+        bird.vel.y = -5;
+    }
 }

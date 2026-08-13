@@ -19,6 +19,9 @@ function setup() {
 
     bird = new Sprite();
     bird.img = flapMidImg;
+
+    floor = new Sprite();
+    floor.img = base;
 }
 
 function draw() {

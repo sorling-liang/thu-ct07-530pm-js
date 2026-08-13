@@ -55,7 +55,7 @@ function setup() {
 
     pipeGroup = new Group(); // for easy management of many pipes
 
-    //                                x     y    w   h    collider
+    //                                x     y        w   h    collider
     startScreenLabel = new Sprite(width/2, height/2, 50, 50, "none");
     startScreenLabel.img = startScreenImg;
 }

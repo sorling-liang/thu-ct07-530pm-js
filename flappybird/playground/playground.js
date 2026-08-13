@@ -36,6 +36,12 @@ function setup() {
 }
 
 // task 5: add the keyboard events to control the bird
+// task 6: add debugging text to show
+// 1. frameCount
+// 2. canvas width
+// 3. canvas height
+// 4. bird.sleeping
+
 function draw() {
     background("skyblue"); // erase the trail of the falling bird
     if (kb.presses("space")) {

@@ -47,7 +47,7 @@ function draw() {
 
     fill("red");
     textSize(14);
-    text("the text", 50, 50);
+    text("frameCount= " + frameCount, 50, 50);
     
     if (kb.presses("space")) {
         bird.sleeping = false;

@@ -10,6 +10,8 @@ let bottomPipe, topPipe;
 let gameOverImg, gameOverLabel;
 let startScreenImg, startScreenLabel;
 
+let 
+
 function preload() {
     // bird image, background, and the floor
     flapMidImg = loadImage('assets/redbird-midflap.png');

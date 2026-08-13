@@ -74,6 +74,7 @@ function draw() {
     text("frameCount = " + frameCount            , 20, 80);
     text("pipeGroup.length = " + pipeGroup.length, 20, 100);
 
+    // wait for the player to start the game by interaction
     if ( kb.presses("space") || mouse.presses() ) {
         startGame = true;
         startScreenLabel.visible = false;

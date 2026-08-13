@@ -67,7 +67,7 @@ function draw() {
     text("pipeGroup.length = " + pipeGroup.length, 20, 100);
 
 
-    startScreenLabel = new Sprite(width/2, height/2, w, h);
+    startScreenLabel = new Sprite(width/2, height/2, 50, 50, "none");
 
 
 

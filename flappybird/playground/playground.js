@@ -35,6 +35,7 @@ function setup() {
     world.gravity.y = 10;
 }
 
+// task 5: add the keyboard events to control the bird
 function draw() {
     background("skyblue"); // erase the trail of the falling bird
 }

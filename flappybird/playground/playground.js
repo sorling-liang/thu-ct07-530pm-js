@@ -59,6 +59,6 @@ function draw() {
     }
     if (mouse.presses()) {
         let s = new Sprite(mouse.x, mouse.y);
-        s.diameter = 25;
+        s.diameter = 25; // make it a circle
     }
 }

@@ -36,7 +36,7 @@ function setup() {
 }
 
 // task 5: add the keyboard events to control the bird
-// task 6: add debugging text to show
+// task 6: add debugging (red-colour) text to show
 // 1. frameCount
 // 2. canvas width
 // 3. canvas height

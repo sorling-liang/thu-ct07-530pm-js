@@ -78,8 +78,9 @@ function draw() {
     if ( kb.presses("space") || mouse.presses() ) {
         startGame = true;
         startScreenLabel.visible = false;
+
         // revert the bird
-        bird.visible = true;
+        bird.visible = true; // show the bird
         bird.collider = "dynamic"; // the bird can start falling
     }
 

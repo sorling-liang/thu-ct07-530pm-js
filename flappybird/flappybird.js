@@ -93,7 +93,7 @@ function draw() {
 
     // frameCount variable
     if ( frameCount % 120 === 0 ) {
-        spawnPipePair(); // every 1.5 seconds
+        spawnPipePair(); // every 1.5 seconds () or 2 sec
     }
 
     // clean up the pipes

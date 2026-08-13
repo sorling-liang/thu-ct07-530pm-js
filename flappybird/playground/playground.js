@@ -36,5 +36,5 @@ function setup() {
 }
 
 function draw() {
-    background("skyblue");
+    background("skyblue"); // erase the trail of the falling bird
 }

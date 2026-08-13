@@ -91,7 +91,7 @@ function draw() {
         bird.rotation = 0;
     }
 
-    // for testing (only lesson 5)
+    // frameCount variable
     if ( frameCount % 120 === 0 ) {
         spawnPipePair(); // every 1.5 seconds
     }

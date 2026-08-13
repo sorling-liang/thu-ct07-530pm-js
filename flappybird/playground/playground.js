@@ -47,10 +47,10 @@ function draw() {
 
     fill("red");
     textSize(14);
-    text("frameCount= " + frameCount, 50, 50);
-    text("canvas width= " + width,    50, 70);
-    text("canvas height= " + height,  50, 90);
-    text("bird.sleeping= " + bird.slee, 50, 110);
+    text("frameCount= " + frameCount,      50, 50);
+    text("canvas width= " + width,         50, 70);
+    text("canvas height= " + height,       50, 90);
+    text("bird.sleeping= " + bird.sleeping, 50, 110);
     
     if (kb.presses("space")) {
         bird.sleeping = false;

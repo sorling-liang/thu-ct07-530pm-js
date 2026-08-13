@@ -4,4 +4,10 @@ function preload() {
 
 }
 
-function 
+function setup() {
+
+}
+
+function draw() {
+    
+}

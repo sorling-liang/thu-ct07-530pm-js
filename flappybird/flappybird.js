@@ -91,9 +91,9 @@ function draw() {
         bird.rotation = 0;
     }
 
-    // frameCount variable
+    // frameCount variable; 60 fps
     if ( frameCount % 120 === 0 ) {
-        spawnPipePair(); // every 1.5 seconds () or 2 sec
+        spawnPipePair(); // every 1.5 seconds (90) or 2 sec (120)
     }
 
     // clean up the pipes

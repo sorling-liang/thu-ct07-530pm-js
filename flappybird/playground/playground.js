@@ -5,6 +5,7 @@ function preload() {
 
 }
 
+// task 2:
 function setup() {
 
 }

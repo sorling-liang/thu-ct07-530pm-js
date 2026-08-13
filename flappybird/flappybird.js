@@ -74,7 +74,9 @@ function draw() {
     text("frameCount = " + frameCount            , 20, 80);
     text("pipeGroup.length = " + pipeGroup.length, 20, 100);
 
-
+    if ( kb.presses("space") || mouse.presses() ) {
+        
+    }
 
     if (!startGame) {
         return; // statement will not continue the next line

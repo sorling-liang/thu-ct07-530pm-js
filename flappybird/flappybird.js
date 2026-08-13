@@ -38,8 +38,8 @@ function setup() {
     bird.height = 25;
     bird.img = flapMidImg;
 
-    // bird.collider = "static"; // "dynamic";
-    // bird.visible = false; // hide the bird
+    bird.collider = "static"; // "dynamic";
+    bird.visible = false; // hide the bird
 
     bird.mass = 2; // weight
     bird.drag = 0.02; // air resistance

@@ -5,7 +5,7 @@ function preload() {
 
 }
 
-// task 2:
+// task 2: create a canvas
 function setup() {
 
 }

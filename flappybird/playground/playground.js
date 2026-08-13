@@ -57,4 +57,5 @@ function draw() {
         bird.sleeping = false;
         bird.vel.y = -5;
     }
+    if (mouse.presses()) 
 }

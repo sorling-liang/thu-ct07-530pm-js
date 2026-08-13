@@ -22,6 +22,7 @@ function setup() {
     bird.img = flapMidImg;
 
     floor = new Sprite();
+    floor.collider = "static";
     floor.img = base;
     floor.y = height -25;
 

@@ -60,6 +60,6 @@ function draw() {
     if (mouse.presses()) {
         let s = new Sprite(mouse.x, mouse.y);
         s.diameter = 25; // make it a circle
-        s.debug = true;
+        s.debug = true; // hitbox can be a circle
     }
 }

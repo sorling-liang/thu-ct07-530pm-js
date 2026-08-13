@@ -129,7 +129,6 @@ function draw() {
         gameOverLabel.layer = 100; // frontmost
         noLoop();
     }
-
 }
 
 // top pipe and bottom pipe

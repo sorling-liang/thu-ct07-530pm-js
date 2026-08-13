@@ -75,7 +75,8 @@ function draw() {
     text("pipeGroup.length = " + pipeGroup.length, 20, 100);
 
     if ( kb.presses("space") || mouse.presses() ) {
-        
+        startGame = true;
+        s
     }
 
     if (!startGame) {

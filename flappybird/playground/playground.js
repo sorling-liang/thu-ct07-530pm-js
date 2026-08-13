@@ -21,7 +21,7 @@ function setup() {
     bird = new Sprite();
     bird.img = flapMidImg;
     bird.bounciness = 0.7;
-    bird.debug = true;
+    bird.debug = true; // show me the hitbox
 
     floor = new Sprite();
     floor.w = width;

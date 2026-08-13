@@ -66,7 +66,7 @@ function draw() {
     text("frameCount = " + frameCount            , 20, 80);
     text("pipeGroup.length = " + pipeGroup.length, 20, 100);
 
-
+    //                                x     y        w   h    collider
     startScreenLabel = new Sprite(width/2, height/2, 50, 50, "none");
     startScreenLabel.img = startScreenImg;
 

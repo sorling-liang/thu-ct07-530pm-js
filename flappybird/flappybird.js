@@ -79,7 +79,8 @@ function draw() {
         startGame = true;
         startScreenLabel.visible = false;
         // revert the bird
-        b
+        bird.visible = true;
+        bird
 
     }
 

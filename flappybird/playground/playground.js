@@ -3,6 +3,8 @@
 // task 3:
 // show me a bird sprite
 // show me a floor sprite with base.png
+let bird, floor;
+let flapMidImg, base;
 
 // task 1: write 3 functions needed for p5play
 function preload() {

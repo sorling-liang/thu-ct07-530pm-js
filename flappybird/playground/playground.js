@@ -56,6 +56,9 @@ function draw() {
         //           x y, w      h
         image(bgDay, 0,0, width, height);
     }
+    else {
+        iamge(bgNight, 0,0, wi)
+    }
 
     fill("red");
     textSize(14);

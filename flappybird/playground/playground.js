@@ -1,11 +1,12 @@
 // 3 functions needed for p5play
 
-let digitImg;
+let digitImgs = [];
 let digitLabel;
 let score = 7; // to keep track
 
 function preload() {
-    digitImg = loadImage("assets/7.png");
+    //digitImg = loadImage("assets/7.png");
+    
 }
 
 // called once

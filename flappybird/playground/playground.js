@@ -81,6 +81,9 @@ function drawScore() {
         let s = new Sprite();
         s.img = digitImgs[one];
         s.x = middle + offset;
+
+        offset = offset + 25;
+        s
     }
 }
 

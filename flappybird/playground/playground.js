@@ -7,7 +7,7 @@ let bird, floor;
 let flapMidImg, base;
 
 let bgDay, bgNight;
-let isDay = true;
+let isDay = true; // ! not (logical operator)
 
 // task 1: write 3 functions needed for p5play
 function preload() {

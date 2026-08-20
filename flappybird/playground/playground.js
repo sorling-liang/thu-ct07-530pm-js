@@ -39,9 +39,9 @@ function draw() {
     // up arrow to increase score
     // down arrow to decrease score
     if (kb.presses("up")) {
-
+        s
     }
     else if (kb.presses("down")) {
-        score 
+        score = score -1;
     } 
 }

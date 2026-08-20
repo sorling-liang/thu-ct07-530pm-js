@@ -27,7 +27,7 @@ function setup() {
     digitLabel.width = 25;
     digitLabel.height = 36;
     digitLabel.collider = "none";
-    digitLabel.img = digitImgs[score];
+    digitLabel.img = digitImgs[score]; // load the correct image using the array
 }
 
 // forever loop

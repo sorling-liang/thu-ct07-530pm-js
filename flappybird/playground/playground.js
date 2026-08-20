@@ -6,6 +6,7 @@
 let bird, floor;
 let flapMidImg, base;
 
+k
 // task 1: write 3 functions needed for p5play
 function preload() {
     flapMidImg = loadImage("assets/yellowbird-midflap.png");

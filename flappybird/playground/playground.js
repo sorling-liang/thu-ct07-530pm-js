@@ -13,7 +13,7 @@ function setup() {
     new Canvas(400, 600);
 
     digitLabel = new Sprite();
-    digitLabel.y = 20;
+    digitLabel.y = 50;
     digitLabel.collider = "none";
     digitLabel.img = digitImg;
 }

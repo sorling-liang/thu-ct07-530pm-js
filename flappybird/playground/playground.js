@@ -61,6 +61,7 @@ function draw() {
     }
 
     if (frameCount%500 === 0) {
+        // flip the value of boolean
         isDay = !isDay;
     }
 

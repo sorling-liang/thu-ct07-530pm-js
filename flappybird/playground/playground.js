@@ -36,5 +36,6 @@ function draw() {
     digitLabel.img = digitImgs[score]; // load the correct image using the array
 
     // add keyboard event
-    // up 
+    // up arrow to increase score
+    // down arrow to decrease score
 }

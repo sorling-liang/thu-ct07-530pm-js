@@ -29,6 +29,9 @@ function setup() {
     digitLabel.height = 36; // sprite.h
     digitLabel.collider = "none";
     digitLabel.img = digitImgs[score]; // load the correct image using the array
+
+    scoreGroup = new Group();
+    
 }
 
 // forever loop

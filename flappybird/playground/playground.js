@@ -63,6 +63,7 @@ function draw() {
 }
 
 function drawScore() {
+    scoreGroup.remove
     let scoreString = str(score);
     let digitArray = scoreString.split(""); // split at every character
     // print(score);

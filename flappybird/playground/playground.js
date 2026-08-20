@@ -13,7 +13,8 @@ function preload() {
 
     for (let count=0; count<10; count++) {
       filename = prefix + count + suffix;
-      print(filename)  
+      print(filename);
+      digitImg = loadImage("assets/7.png");
     }
 }
 

@@ -53,7 +53,8 @@ function draw() {
     background("skyblue"); // erase the trail of the falling bird
 
     if (isDay) {
-        image()
+        //           x y, w      h
+        image(bgDay, 0,0, width, height);
     }
 
     fill("red");

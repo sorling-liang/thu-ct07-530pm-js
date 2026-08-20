@@ -10,7 +10,7 @@ function preload() {
 function setup() {
     new Canvas(400, 600);
     digitLabel = new Sprite();
-    d
+    digitLabel.collider = "none";
     digitLabel.img = digitImg;
 }
 

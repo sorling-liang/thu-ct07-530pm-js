@@ -63,7 +63,7 @@ function drawScore() {
     let digitArray = scoreString.split(""); // split at every character
     print(digitArray.length);
     print(digitArray[0]);
-    print(digitArray.length);
+    print(digitArray[1]);
 
     if (score > 10) {
         noLoop();

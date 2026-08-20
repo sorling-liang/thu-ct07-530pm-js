@@ -38,4 +38,10 @@ function draw() {
     // add keyboard event
     // up arrow to increase score
     // down arrow to decrease score
+    if (kb.presses("up")) {
+
+    }
+    else if (kb.presses("down")) {
+
+    } 
 }

@@ -33,6 +33,10 @@ function setup() {
 // forever loop
 function draw() {
     background("skyblue");
+    
+    // add debugging to show score
+    
+
     digitLabel.img = digitImgs[score]; // load the correct image using the array
 
     // add keyboard event

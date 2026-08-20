@@ -57,7 +57,7 @@ function draw() {
         image(bgDay, 0,0, width, height);
     }
     else {
-        iamge(bgNight, 0,0, width, height);
+        image(bgNight, 0,0, width, height);
     }
 
     if (frameCount%500 === 0) {

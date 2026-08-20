@@ -12,7 +12,8 @@ let bgDay, bgNight;
 function preload() {
     flapMidImg = loadImage("assets/yellowbird-midflap.png");
     base = loadImage("assets/base.png");
-    
+    bgDay = loadImage("");
+    bgDay = loadImage("");
 }
 
 // task 2: create a canvas

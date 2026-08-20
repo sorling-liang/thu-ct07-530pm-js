@@ -11,7 +11,7 @@ function preload() {
     let filename = "";
 
     for (let count=0; count<10; count++) {
-        
+      filename = prefix   
     }
 }
 

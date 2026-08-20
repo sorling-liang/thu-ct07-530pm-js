@@ -11,6 +11,7 @@ function preload() {
 // called once
 function setup() {
     new Canvas(400, 600);
+    
     digitLabel = new Sprite();
     digitLabel.collider = "none";
     digitLabel.img = digitImg;

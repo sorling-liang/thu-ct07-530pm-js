@@ -42,6 +42,6 @@ function draw() {
 
     }
     else if (kb.presses("down")) {
-
+        score 
     } 
 }

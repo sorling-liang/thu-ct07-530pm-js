@@ -24,8 +24,8 @@ function setup() {
 
     digitLabel = new Sprite();
     digitLabel.y = 50;
-    digitLabel.width = 25;
-    digitLabel.height = 36;
+    digitLabel.width = 25; // sprite.w
+    digitLabel.height = 36; // sprite.h
     digitLabel.collider = "none";
     digitLabel.img = digitImgs[score]; // load the correct image using the array
 }

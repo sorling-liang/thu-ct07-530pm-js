@@ -61,10 +61,10 @@ function draw() {
 function drawScore() {
     let scoreString = str(score);
     let digitArray = scoreString.split(""); // split at every character
-    print(score);
-    print(digitArray.length);
-    print(digitArray[0]);
-    print(digitArray[1]);
+    // print(score);
+    // print(digitArray.length);
+    // print(digitArray[0]);
+    // print(digitArray[1]);
 
     if (score > 10) {
         noLoop();

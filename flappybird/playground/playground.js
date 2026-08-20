@@ -75,6 +75,8 @@ function drawScore() {
     // if (score > 10) {
     //     noLoop();
     // }
+    let middle = width/2; // make sure on the center of the canvas
+    let offset = 0;
     for (let one of digitArray) {
         let s = new Sprite();
         s.img = digitImgs[one];

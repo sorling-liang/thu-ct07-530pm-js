@@ -4,11 +4,12 @@ let digitImg;
 let digitLabel;
 
 function preload() {
-    digitImg = loadImage("assets/");
+    digitImg = loadImage("assets/0.png");
 }
 
 function setup() {
     new Canvas(400, 600);
+    digitLabel = new Sprite();
 }
 
 function draw() {

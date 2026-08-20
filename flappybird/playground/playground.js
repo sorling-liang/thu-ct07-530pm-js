@@ -33,4 +33,5 @@ function setup() {
 // forever loop
 function draw() {
     background("skyblue");
+    digitLabel.img = digitImgs[score]; // load the correct image using the array
 }

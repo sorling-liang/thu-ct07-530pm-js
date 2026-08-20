@@ -3,6 +3,7 @@
 let digitImgs = []; // change to array
 let digitLabel;
 let score = 1; // to keep track
+let scoreGroup;
 
 function preload() {
     //digitImg = loadImage("assets/7.png");

@@ -39,7 +39,7 @@ function draw() {
     text("score: " + score,           50,50);
     text("frameCount: " + frameCount, 50,70);
 
-    digitLabel.img = digitImgs[score]; // load the correct image using the array
+    //digitLabel.img = digitImgs[score]; // load the correct image using the array
 
     // add keyboard event
     // up arrow to increase score

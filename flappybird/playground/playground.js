@@ -11,7 +11,8 @@ function preload() {
     let filename = "";
 
     for (let count=0; count<10; count++) {
-      filename = prefix   
+      filename = prefix + count + suffix;
+      print(filename)  
     }
 }
 
@@ -24,7 +25,7 @@ function setup() {
     digitLabel.width = 25;
     digitLabel.height = 36;
     digitLabel.collider = "none";
-    digitLabel.img = digitImg;
+    //digitLabel.img = digitImg;
 }
 
 // forever loop

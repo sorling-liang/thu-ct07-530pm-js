@@ -13,7 +13,7 @@ let isDay = true; // ! not (logical operator)
 function preload() {
     flapMidImg = loadImage("assets/yellowbird-midflap.png");
     base = loadImage("assets/base.png");
-    
+
     bgDay = loadImage("assets/background-day.png");
     bgNight = loadImage("assets/background-night.png");
 }
@@ -51,6 +51,10 @@ function setup() {
 // task 7: add the mouse click event, to create new circle sprite that drops at mouse X and Y
 function draw() {
     background("skyblue"); // erase the trail of the falling bird
+
+    if (isDay) {
+        image()
+    }
 
     fill("red");
     textSize(14);

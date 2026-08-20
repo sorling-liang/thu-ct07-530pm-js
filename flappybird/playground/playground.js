@@ -60,7 +60,9 @@ function draw() {
         iamge(bgNight, 0,0, width, height);
     }
 
-    if (frameCount%)
+    if (frameCount%500 === 0) {
+        
+    }
 
     fill("red");
     textSize(14);

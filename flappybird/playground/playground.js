@@ -7,6 +7,7 @@ function preload() {
     digitImg = loadImage("assets/0.png");
 }
 
+// called once
 function setup() {
     new Canvas(400, 600);
     digitLabel = new Sprite();
@@ -14,6 +15,7 @@ function setup() {
     digitLabel.img = digitImg;
 }
 
+// forever loop
 function draw() {
     background("skyblue");
 }

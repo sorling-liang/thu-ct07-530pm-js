@@ -57,12 +57,11 @@ function drawScore() {
     let scoreString = str(score);
     let digitArray = scoreString.split(""); // split at every character
     print(digitArray.length);
-    
+
     if (score > 10) {
         noLoop();
     }
 }
 
 function moveGroup() {
-
 }

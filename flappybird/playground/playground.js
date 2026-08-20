@@ -32,7 +32,7 @@ function setup() {
 
 // forever loop
 function draw() {
-    background("skyblue");
+    background("skyblue"); // erase
     
     // add debugging to show score
     textSize(14);

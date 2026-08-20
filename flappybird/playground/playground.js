@@ -2,10 +2,10 @@
 
 let digitImg;
 let digitLabel;
-let score = 8;
+let score = 7;
 
 function preload() {
-    digitImg = loadImage("assets/8.png");
+    digitImg = loadImage("assets/7.png");
 }
 
 // called once

@@ -1,7 +1,8 @@
 // 3 functions needed for p5play
 
 let digitImg;
-lte
+let digitLabel;
+
 function preload() {
 
 }

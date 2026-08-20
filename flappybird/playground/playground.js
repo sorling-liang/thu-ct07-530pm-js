@@ -57,7 +57,7 @@ function draw() {
         image(bgDay, 0,0, width, height);
     }
     else {
-        iamge(bgNight, 0,0, wi)
+        iamge(bgNight, 0,0, width, height);
     }
 
     fill("red");

@@ -61,7 +61,7 @@ function draw() {
     }
 
     if (frameCount%500 === 0) {
-        
+        isDay = !isDay;
     }
 
     fill("red");

@@ -31,7 +31,7 @@ function setup() {
     digitLabel.img = digitImgs[score]; // load the correct image using the array
 
     scoreGroup = new Group();
-    
+    scoreGroup.collider = "none";
 }
 
 // forever loop

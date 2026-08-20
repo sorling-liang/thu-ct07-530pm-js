@@ -4,7 +4,7 @@ let digitImg;
 let digitLabel;
 
 function preload() {
-
+    digitImg = loadImage("assets/")
 }
 
 function setup() {
@@ -12,5 +12,5 @@ function setup() {
 }
 
 function draw() {
-    background("skyblue")
+    background("skyblue");
 }

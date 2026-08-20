@@ -13,8 +13,8 @@ let isDay = true; // ! not (logical operator)
 function preload() {
     flapMidImg = loadImage("assets/yellowbird-midflap.png");
     base = loadImage("assets/base.png");
-    bgDay = loadImage("assets/base.png");
-    bgNight = loadImage("assets/base.png");
+    bgDay = loadImage("assets/background-day.png");
+    bgNight = loadImage("assets/background-night.png");
 }
 
 // task 2: create a canvas

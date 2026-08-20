@@ -14,8 +14,8 @@ function setup() {
 
     digitLabel = new Sprite();
     digitLabel.y = 50;
-    digitLabel.w = 25;
-    digitLabel.h = 36;
+    digitLabel.width = 25;
+    digitLabel.height = 36;
     digitLabel.collider = "none";
     digitLabel.img = digitImg;
 }

@@ -55,7 +55,9 @@ function draw() {
 
 function drawScore() {
     let scoreString = str(score);
-    let digitArray = scoreString.split("")
+    let digitArray = scoreString.split(""); // split at every character
+    print(digitArray.length);
+    noLoop();
 }
 
 function moveGroup() {

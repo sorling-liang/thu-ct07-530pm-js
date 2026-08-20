@@ -4,7 +4,7 @@ let digitImg;
 let digitLabel;
 
 function preload() {
-    digitImg = loadImage("assets/")
+    digitImg = loadImage("assets/");
 }
 
 function setup() {

@@ -78,6 +78,7 @@ function drawScore() {
     for (let one of digitArray) {
         let s = new Sprite();
         s.img = digitImgs[one];
+        s.x = middle + offset;
     }
 }
 

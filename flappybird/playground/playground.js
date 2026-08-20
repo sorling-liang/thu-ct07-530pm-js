@@ -36,8 +36,8 @@ function draw() {
     
     // add debugging to show score
     textSize(14);
-    text("score: " + score, 50,50);
-    text("frameCount: " + score, 50,50);
+    text("score: " + score,      50,50);
+    text("frameCount: " + frameCount, 50,70);
 
     digitLabel.img = digitImgs[score]; // load the correct image using the array
 

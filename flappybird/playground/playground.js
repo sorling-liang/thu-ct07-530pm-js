@@ -67,14 +67,7 @@ function drawScore() {
 
     let scoreString = str(score);
     let digitArray = scoreString.split(""); // split at every character
-    // print(score);
-    // print(digitArray.length);
-    // print(digitArray[0]);
-    // print(digitArray[1]);
 
-    // if (score > 10) {
-    //     noLoop();
-    // }
     let middle = width/2; // make sure on the center of the canvas
     let offset = 0;
     for (let one of digitArray) {

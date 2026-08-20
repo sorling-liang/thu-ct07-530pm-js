@@ -7,13 +7,14 @@ let bird, floor;
 let flapMidImg, base;
 
 let bgDay, bgNight;
+let isDay = true;
 
 // task 1: write 3 functions needed for p5play
 function preload() {
     flapMidImg = loadImage("assets/yellowbird-midflap.png");
     base = loadImage("assets/base.png");
     bgDay = loadImage("");
-    bgDay = loadImage("");
+    bgNight = loadImage("");
 }
 
 // task 2: create a canvas

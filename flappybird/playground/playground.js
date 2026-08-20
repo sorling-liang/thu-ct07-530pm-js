@@ -76,7 +76,8 @@ function drawScore() {
     //     noLoop();
     // }
     for (let one of digitArray) {
-        
+        let s = new Sprite();
+        s.img = digitImgs[one];
     }
 }
 

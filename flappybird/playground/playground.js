@@ -66,9 +66,9 @@ function drawScore() {
     // print(digitArray[0]);
     // print(digitArray[1]);
 
-    if (score > 10) {
-        noLoop();
-    }
+    // if (score > 10) {
+    //     noLoop();
+    // }
 }
 
 function moveGroup() {

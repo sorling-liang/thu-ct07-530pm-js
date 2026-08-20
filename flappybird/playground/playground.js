@@ -83,7 +83,7 @@ function drawScore() {
         s.x = middle + offset;
 
         offset = offset + 25;
-        s
+        scoreGroup.add(s);
     }
 }
 

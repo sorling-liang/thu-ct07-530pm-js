@@ -53,4 +53,10 @@ function draw() {
     score = constrain(score,0,9); // keep the variable within the digits
 }
 
-function 
+function drawScore() {
+
+}
+
+function moveGroup() {
+    
+}

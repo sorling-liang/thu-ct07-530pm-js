@@ -7,7 +7,7 @@ function setup() {
     world.gravity.y = 10;
 
     floor = new Sprite();
-    floor.y = 50;
+    floor.y = 355;
     floor.width = width;
     floor.collider = "static";
 }
@@ -18,5 +18,6 @@ function draw() {
     if (mouse.presses()) {
         let s = new Sprite(mouseX, mouseY);
         s.diameter = 35;
+        s.bounciness = 0.56;
     }
 }

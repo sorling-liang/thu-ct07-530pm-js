@@ -19,7 +19,7 @@ function preload() {
 // called once
 function setup() {
     new Canvas(400, 600);
-    
+
     scoreGroup = new Group();
     scoreGroup.collider = "none";
 }
@@ -63,7 +63,8 @@ function drawScore() {
     let scoreString = str(score);
     let digitArray = scoreString.split(""); // split at every character
 
-    let middle = width/2; // make sure on the center of the canvas
+    //let middle = width/2; // make sure on the center of the canvas
+    let middle = camera.x;
     let offset = 0;
 
     for (let one of digitArray) {

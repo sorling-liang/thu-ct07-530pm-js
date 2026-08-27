@@ -169,8 +169,10 @@ function draw() {
         noLoop();
     }
 
-/
-
+    // update score
+    for (let p of pipeGroup) {
+        let pipeR
+    }
 
     // lesson 7
     drawScore();

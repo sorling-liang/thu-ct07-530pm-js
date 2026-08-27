@@ -174,6 +174,10 @@ function draw() {
         let pipeRightEdge = p.x + p.w/2;
 
         let birdLeftEdge = bird.x - bird.w/2;
+
+        if (p.passed === false) {
+            
+        }
     }
 
     // lesson 7

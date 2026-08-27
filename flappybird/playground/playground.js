@@ -6,6 +6,6 @@ function setup() {
 
 function draw() {
     if (mouse.presses()) {
-        new Sprite()
+        new Sprite();
     }
 }

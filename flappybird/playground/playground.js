@@ -1,13 +1,10 @@
 // 3 functions needed for p5play
 
 let digitImgs = []; // change to array
-// let digitLabel;
 let score = 981; // to keep track
 let scoreGroup; // group to manage the digits for score above 100
 
 function preload() {
-    //digitImg = loadImage("assets/7.png");
-
     let prefix = "assets/";
     let suffix = ".png";
     let filename = "";

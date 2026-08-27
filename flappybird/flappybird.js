@@ -29,6 +29,16 @@ function preload() {
     gameOverImg = loadImage('assets/gameover.png');
 
     startScreenImg = loadImage('assets/message.png');
+
+    let prefix = "assets/";
+    let suffix = ".png";
+    let filename = "";
+
+    for (let count=0; count<10; count++) {
+      filename = prefix + count + suffix;
+      //print(filename);
+      digitImgs[count] = loadImage(filename);
+    }
 }
 
 function setup() {

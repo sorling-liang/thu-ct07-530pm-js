@@ -73,6 +73,9 @@ function setup() {
     //                                x     y        w   h    collider
     startScreenLabel = new Sprite(width/2, height/2, 50, 50, "none");
     startScreenLabel.img = startScreenImg;
+
+scoreGroup = new Group();
+    scoreGroup.collider = "none";
 }
 
 function draw() {

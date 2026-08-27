@@ -1,7 +1,7 @@
 // 3 functions needed for p5play
 
 let digitImgs = []; // change to array
-let digitLabel;
+// let digitLabel;
 let score = 1; // to keep track
 let scoreGroup; // group to manage the digits for score above 100
 
@@ -76,7 +76,7 @@ function drawScore() {
         let s = new Sprite();
         s.img = digitImgs[one];
         s.x = middle + offset;
-        //s.y = 50;
+        s.y = 50;
         s.w = 25;
         s.h = 36;
 

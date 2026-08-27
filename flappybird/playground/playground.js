@@ -2,7 +2,7 @@
 
 let digitImgs = []; // change to array
 // let digitLabel;
-let score = 1; // to keep track
+let score = 981; // to keep track
 let scoreGroup; // group to manage the digits for score above 100
 
 function preload() {
@@ -72,7 +72,7 @@ function drawScore() {
 
     let middle = width/2; // make sure on the center of the canvas
     let offset = 0;
-    
+
     for (let one of digitArray) {
         let s = new Sprite();
         s.img = digitImgs[one];

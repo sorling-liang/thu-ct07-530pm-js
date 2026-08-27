@@ -81,6 +81,8 @@ function drawScore() {
         scoreGroup.layer = 1000; // display front
         scoreGroup.collider = "none";
     }
+    // adjust the digits
+    moveGroup();
 }
 
 function moveGroup() {

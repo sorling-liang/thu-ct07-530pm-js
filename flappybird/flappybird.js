@@ -74,7 +74,8 @@ function setup() {
     startScreenLabel = new Sprite(width/2, height/2, 50, 50, "none");
     startScreenLabel.img = startScreenImg;
 
-scoreGroup = new Group();
+    // lesson 7
+    scoreGroup = new Group();
     scoreGroup.collider = "none";
 }
 

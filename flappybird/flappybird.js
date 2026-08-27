@@ -194,3 +194,45 @@ function spawnPipePair() {
 
     pipeGroup.layer = 0; // go behind other sprites
 }
+
+
+function drawScore() {
+    scoreGroup.removeAll(); // clear the members
+
+    let scoreString = str(score);
+    let digitArray = scoreString.split(""); // split at every character
+
+    //let middle = width/2; // make sure on the center of the canvas
+    let middle = camera.x;
+    let offset = 0;
+
+    for (let one of digitArray) {
+        let s = new Sprite();
+        s.img = digitImgs[one];
+        s.x = middle + offset;
+        s.y = 50;
+        s.w = 25;
+        s.h = 36;
+
+        offset = offset + 25;
+        scoreGroup.add(s);
+
+        scoreGroup.layer = 1000; // display front
+        scoreGroup.collider = "none";
+    }
+    // adjust the digits
+    moveGroup();
+}
+
+function moveGroup() {
+    let count = scoreGroup.length;
+    let fullWidth = count * 25;
+    let centerScoreGroup = fullWidth/2;
+
+    let centerSingle = 25/2;
+    let difference = centerScoreGroup - centerSingle;
+
+    for (let one of scoreGroup) {
+        one.x = one.x - difference;
+    }
+}

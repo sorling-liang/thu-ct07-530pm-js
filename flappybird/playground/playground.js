@@ -1,7 +1,7 @@
 // 3 functions needed for p5play
 
 let digitImgs = []; // change to array
-let score = 981; // to keep track
+let score = 0; // to keep track
 let scoreGroup; // group to manage the digits for score above 100
 
 function preload() {

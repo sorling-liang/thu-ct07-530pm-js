@@ -9,7 +9,7 @@ function setup() {
     floor = new Sprite();
     floor.y = 355;
     floor.width = width;
-    floor.collider = "static";
+    floor.collider = "static"; // none,
 }
 
 function draw() {

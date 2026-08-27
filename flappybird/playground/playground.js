@@ -10,7 +10,7 @@ function draw() {
     background("lightgray");
 
     if (mouse.presses()) {
-        let s = new Sprite();
+        let s = new Sprite(mouseX, mouseY);
         s.diameter = 35;
     }
 }

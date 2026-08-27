@@ -168,6 +168,7 @@ function draw() {
         gameOverLabel.layer = 100; // frontmost
         noLoop();
     }
+    drawScore();
 }
 
 // top pipe and bottom pipe

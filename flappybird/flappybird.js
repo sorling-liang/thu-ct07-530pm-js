@@ -12,6 +12,10 @@ let startScreenImg, startScreenLabel;
 
 let startGame = false;
 
+let digitImgs = []; // change to array
+let score = 0; // to keep track
+let scoreGroup; // group to manage the digits for score above 100
+
 function preload() {
     // bird image, background, and the floor
     flapMidImg = loadImage('assets/redbird-midflap.png');

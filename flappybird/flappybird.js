@@ -36,7 +36,6 @@ function preload() {
 
     for (let count=0; count<10; count++) {
       filename = prefix + count + suffix;
-      //print(filename);
       digitImgs[count] = loadImage(filename);
     }
 }

@@ -88,5 +88,5 @@ function moveGroup() {
     let fullWidth = count * 25;
     let centerScoreGroup = fullWidth/2;
 
-    let single = 25;
+    let centerSingle = 25/2;
 }

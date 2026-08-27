@@ -64,7 +64,7 @@ function draw() {
     drawScore();
 
     // fake bird flying to the right
-    camera.x += 3;
+    camera.x += 3; // shorthand
 }
 
 function drawScore() {

@@ -172,6 +172,8 @@ function draw() {
     // update score
     for (let p of pipeGroup) {
         let pipeRightEdge = p.x + p.w/2;
+
+        let birdLeftEdge = bird.x - bird.w/2;
     }
 
     // lesson 7

@@ -168,6 +168,10 @@ function draw() {
         gameOverLabel.layer = 100; // frontmost
         noLoop();
     }
+
+/
+
+
     // lesson 7
     drawScore();
 }

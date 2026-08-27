@@ -195,7 +195,7 @@ function spawnPipePair() {
     pipeGroup.layer = 0; // go behind other sprites
 }
 
-
+// lesson 7
 function drawScore() {
     scoreGroup.removeAll(); // clear the members
 

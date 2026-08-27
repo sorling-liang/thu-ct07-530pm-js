@@ -171,7 +171,7 @@ function draw() {
 
     // update score
     for (let p of pipeGroup) {
-        let pipeR
+        let pipeRightEdge = p.x + p.w/2;
     }
 
     // lesson 7

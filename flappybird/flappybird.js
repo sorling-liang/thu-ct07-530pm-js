@@ -190,6 +190,7 @@ function spawnPipePair() {
     topPipe = new Sprite(bird.x + 400, someY, 52, 320, 'static');
     topPipe.img = pipe;
     topPipe.rotation = 180; // flipped over
+    topPipe.passed = false; // custom property
 
     pipeGroup.add(topPipe);
 

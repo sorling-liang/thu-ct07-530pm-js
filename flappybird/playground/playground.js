@@ -8,6 +8,7 @@ function setup() {
 
     floor = new Sprite();
     floor.y = 0;
+    floor.collider = "static";
 }
 
 function draw() {

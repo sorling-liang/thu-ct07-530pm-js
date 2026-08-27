@@ -17,6 +17,6 @@ function draw() {
     if (mouse.presses()) {
         let s = new Sprite(mouseX, mouseY);
         s.diameter = 35;
-        s.bounciness = 1;
+        s.bounciness = 0.67;
     }
 }

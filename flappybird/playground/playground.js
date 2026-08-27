@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-    background("lightgray");
+    background("lightgray"); // erase
 
     if (mouse.presses()) {
         let s = new Sprite(mouseX, mouseY);

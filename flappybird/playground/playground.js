@@ -60,7 +60,7 @@ function draw() {
     else if (kb.presses("3")) {
         score = round(random(100,999));
     }
-    score = constrain(score,0,99); // keep the variable within the digits
+    score = constrain(score,0,999); // keep the variable within the digits
     drawScore();
 }
 

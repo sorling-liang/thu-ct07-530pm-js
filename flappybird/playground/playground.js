@@ -6,6 +6,7 @@ function setup() {
     world.gravity.y = 10;
 
     floor = new Sprite();
+    floor.color = "blue";
     floor.y = 355;
     floor.width = width;
     floor.collider = "static"; // none, dynamic

@@ -5,6 +5,8 @@ function setup() {
     background("lightgray");
 
     world.gravity.y = 10;
+
+    floor = new Sprite();
 }
 
 function draw() {

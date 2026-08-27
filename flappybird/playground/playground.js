@@ -87,4 +87,6 @@ function moveGroup() {
     let count = scoreGroup.length;
     let fullWidth = count * 25;
     let centerScoreGroup = fullWidth/2;
+
+    let single = 25;
 }

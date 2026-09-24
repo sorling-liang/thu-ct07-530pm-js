@@ -63,6 +63,7 @@ function sliceFruit() {
         // dist(): calculate distance
         let distance = dist(mouse.x, mouse.y, fruit.x, fruit.y); // is this fruit near the mouse pointer?
         let hitRadius = fruit.diameter/2 + 5;
+        
         if (distance < hitRadius) {
             fruit.sliced = true; // i am slicing this one
 

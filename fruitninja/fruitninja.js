@@ -54,6 +54,9 @@ function draw() {
         sliceFruit();
     }
 }
+function splitFruit() {
+
+}
 // cut the fruit using the mouse pressed (or dragged across the canvas)
 function sliceFruit() {
     for (let fruit of fruitGroup) {

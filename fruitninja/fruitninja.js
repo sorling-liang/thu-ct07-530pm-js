@@ -78,6 +78,7 @@ function sliceFruit() {
 
             fruit.remove(); // whole fruit is gone
 
+            // call our new function using 3 parameters
             splitFruit( fx, fy, fruit.type );
 
             break; // cut one fruit a time per function call

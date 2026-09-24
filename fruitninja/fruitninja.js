@@ -62,7 +62,7 @@ function splitFruit(xpos, ypos, fruitType) {
     left.vel.x = -3; // veer left
     left.vel.y = random(-5, -2);
     left.rotationSpeed = -5;
-    left.life = 30; // 30 frames so half a second
+    left.life = 60; // 30 frames so half a second
 
     fruitHalves.add(left); // add to group
 
@@ -72,7 +72,7 @@ function splitFruit(xpos, ypos, fruitType) {
     right.vel.x = 3; // veer left
     right.vel.y = random(-5, -2);
     right.rotationSpeed = 5;
-    right.life = 30; // 30 frames so half a second
+    right.life = 60; // 30 frames so half a second
 
     fruitHalves.add(right); // add to group
 }

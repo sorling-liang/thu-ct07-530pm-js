@@ -67,6 +67,7 @@ function splitFruit(xpos, ypos, fruitType) {
     fruitHalves.add(left); // add to group
 
     // you do spawn right half
+    let right = new Sprite(xpos-10, ypos, 35);
 }
 // cut the fruit using the mouse pressed (or dragged across the canvas)
 function sliceFruit() {

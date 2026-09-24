@@ -62,6 +62,7 @@ function splitFruit(xpos, ypos, fruitType) {
     left.vel.x = -3; // veer left
     left.vel.y = random(-5, -2);
     left.rotationSpeed = -5;
+    left.life = 30; // 30 frames so half a second
     
     // you do spawn right half
 }

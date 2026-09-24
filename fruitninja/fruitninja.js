@@ -1,6 +1,7 @@
 let bg;
 
 let fruitGroup;
+let fruitHalves;
 let fruitTypes;
 
 function preload() {
@@ -27,6 +28,7 @@ function setup() {
     background("brown");
 
     fruitGroup = new Group(); // for easy management of fruits
+    
 }
 
 function draw() {

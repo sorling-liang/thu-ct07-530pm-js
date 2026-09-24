@@ -43,7 +43,7 @@ function draw() {
 
     if (mouse.pressing()) {
         // left mouse button dragged
-        let tail = new Sprite(mouseX, mouseY, 77);
+        let tail = new Sprite(mouseX, mouseY, 15);
         tail.stroke = "red";
         tail.color = "red";
         tail.collider = "none";

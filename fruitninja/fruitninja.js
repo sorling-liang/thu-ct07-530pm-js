@@ -19,7 +19,7 @@ function preload() {
         splash: loadImage("assets/watermelonsplash.png"),
     }
 
-    fruitTypes = [peach, watermelon, lemon, bomb];
+    fruitTypes = [peach, watermelon];
 }
 
 function setup() {

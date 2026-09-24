@@ -48,6 +48,8 @@ function draw() {
         tail.color = "red";
         tail.collider = "none";
         tail.life = 25; // lifetime measured in frameCount for that dot
+
+        sliceFruit();
     }
 }
 // cut the fruit using the mouse pressed (or dragged across the canvas)

@@ -79,13 +79,13 @@ function spawnFruit() {
     let randomX = random(300,500);
 
     let one = new Sprite(randomX, height-25);
-    one.diameter = 35;
+    one.diameter = 35; // hitbox
     one.img = fruitdata.whole; // set the whole fruit image
     one.vel.y = random(-15, -9);
     one.vel.x = random(-3, 3);
     one.friction = 0; // no reduction of speed when hitting another fruit
     one.type = fruitdata;
-    //one.debug = true; // see the hitbox
+    one.debug = true; // see the hitbox
 
     fruitGroup.add(one);
 }

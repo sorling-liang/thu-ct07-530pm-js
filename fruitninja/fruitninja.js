@@ -54,6 +54,7 @@ function draw() {
         sliceFruit();
     }
 }
+
 // function with parameters
 function splitFruit(xpos, ypos, fruitType) {
     // spawn left half
@@ -76,6 +77,7 @@ function splitFruit(xpos, ypos, fruitType) {
 
     fruitHalves.add(right); // add to group
 }
+
 // cut the fruit using the mouse pressed (or dragged across the canvas)
 function sliceFruit() {
     for (let fruit of fruitGroup) {

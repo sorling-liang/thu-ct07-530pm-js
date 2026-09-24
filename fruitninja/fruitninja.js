@@ -54,7 +54,7 @@ function draw() {
         sliceFruit();
     }
 }
-
+// function with parameters
 function splitFruit(xpos, ypos, fruitType) {
 
 }

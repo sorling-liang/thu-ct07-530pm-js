@@ -78,6 +78,8 @@ function sliceFruit() {
 
             fruit.remove(); // whole fruit is gone
 
+            splitFruit( fx, fy, fruit.type );
+
             break; // cut one fruit a time per function call
         } // condition
     } // loop to close

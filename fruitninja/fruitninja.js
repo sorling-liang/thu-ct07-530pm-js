@@ -82,7 +82,7 @@ function spawnFruit() {
     one.diameter = 35;
     one.img = fruitdata.whole; // set the whole fruit image
     one.vel.y = random(-10, -6);
-    one.vel.x = random(-2, 2);
+    one.vel.x = random(-3, 3);
     one.friction = 0; // no reduction of speed when hitting another fruit
     one.type = fruitdata;
     //one.debug = true; // see the hitbox

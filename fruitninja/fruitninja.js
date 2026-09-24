@@ -69,8 +69,8 @@ function sliceFruit() {
             fruit.remove(); // whole fruit is gone
 
             break; // cut one fruit a time per function call
-        }
-    } // for the 
+        } // condition
+    } // loop to close
 }
 // randomly choose a fruit to spawn
 function spawnFruit() {

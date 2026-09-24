@@ -50,8 +50,9 @@ function draw() {
         tail.life = 25; // lifetime measured in frameCount for that dot
     }
 }
+// cut the fruit using the mouse pressed (or dragged across the canvas)
 function sliceFruit() {
-    
+
 }
 // randomly choose a fruit to spawn
 function spawnFruit() {

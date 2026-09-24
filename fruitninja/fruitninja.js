@@ -43,8 +43,8 @@ function draw() {
 
     if (mouse.pressing()) {
         // left mouse button dragged
-        let tail = new Sprite(mouseX, mouseY, 7);
-        //tail.stroke = "red";
+        let tail = new Sprite(mouseX, mouseY, 77);
+        tail.stroke = "red";
         tail.color = "red";
         tail.collider = "none";
         tail.life = 25; // lifetime measured in frameCount for that dot

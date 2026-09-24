@@ -66,6 +66,7 @@ function sliceFruit() {
 
         if (distance < hitRadius) {
             fruit.sliced = true; // i am slicing this one
+            fruit.remove();
 
             break; // cut one fruit a time per function call
         }

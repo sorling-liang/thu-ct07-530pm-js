@@ -54,7 +54,9 @@ function draw() {
 }
 // cut the fruit using the mouse pressed (or dragged across the canvas)
 function sliceFruit() {
-
+    for (let fruit of fruitGroup) {
+        
+    }
 }
 // randomly choose a fruit to spawn
 function spawnFruit() {

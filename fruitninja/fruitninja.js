@@ -54,7 +54,8 @@ function draw() {
         sliceFruit();
     }
 }
-function splitFruit() {
+
+function splitFruit(xpos, ypos, fruitType) {
 
 }
 // cut the fruit using the mouse pressed (or dragged across the canvas)

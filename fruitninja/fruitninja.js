@@ -105,6 +105,8 @@ function sliceFruit() {
             // call our new function using 3 parameters
             splitFruit( fx, fy, fruit.type );
 
+            score++;
+
             break; // cut one fruit a time per function call
         } // condition
     } // loop to close

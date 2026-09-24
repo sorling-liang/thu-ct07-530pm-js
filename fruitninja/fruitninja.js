@@ -28,7 +28,7 @@ function setup() {
     background("brown");
 
     fruitGroup = new Group(); // for easy management of fruits
-    
+    fruitHalves = new Group();
 }
 
 function draw() {

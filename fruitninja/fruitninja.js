@@ -60,7 +60,7 @@ function sliceFruit() {
             continue; // skip this one, continue next member in the loop
         }
 
-        let distance = dist(); // is this fruit near the mouse pointer?
+        let distance = dist(mouse.x, mouse.y, fruit.x, fruit.y); // is this fruit near the mouse pointer?
         let hitRadius = fruit.diameter/2 + 5;
     }
 }

@@ -26,7 +26,7 @@ function setup() {
     new Canvas(800,600);
     background("brown");
 
-    fruitGroup = new Group();
+    fruitGroup = new Group(); // for easy management of fruits
 }
 
 function draw() {
@@ -55,7 +55,7 @@ function draw() {
 // cut the fruit using the mouse pressed (or dragged across the canvas)
 function sliceFruit() {
     for (let fruit of fruitGroup) {
-        
+
     }
 }
 // randomly choose a fruit to spawn

@@ -50,6 +50,9 @@ function draw() {
         tail.life = 25; // lifetime measured in frameCount for that dot
     }
 }
+function sliceFruit() {
+    
+}
 // randomly choose a fruit to spawn
 function spawnFruit() {
     // randomly choose a fruit

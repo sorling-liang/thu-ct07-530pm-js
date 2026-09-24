@@ -70,7 +70,7 @@ function sliceFruit() {
 
             break; // cut one fruit a time per function call
         }
-    }
+    } // for the 
 }
 // randomly choose a fruit to spawn
 function spawnFruit() {

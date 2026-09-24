@@ -31,7 +31,7 @@ function setup() {
 
 function draw() {
     clear();
-    image(bg, 0,0, width,height);
+    image(bg, 0,0, width,height); // background image
 
     world.gravity.y = 10;
 

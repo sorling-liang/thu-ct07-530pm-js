@@ -85,7 +85,7 @@ function spawnFruit() {
     one.vel.x = random(-3, 3);
     one.friction = 0; // no reduction of speed when hitting another fruit
     one.type = fruitdata;
-    one.debug = true; // see the hitbox
+    //one.debug = true; // see the hitbox
 
     fruitGroup.add(one);
 }

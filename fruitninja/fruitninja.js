@@ -63,7 +63,9 @@ function splitFruit(xpos, ypos, fruitType) {
     left.vel.y = random(-5, -2);
     left.rotationSpeed = -5;
     left.life = 30; // 30 frames so half a second
-    
+
+    fruitHalves.add(left); // add to group
+
     // you do spawn right half
 }
 // cut the fruit using the mouse pressed (or dragged across the canvas)

@@ -78,7 +78,7 @@ function spawnFruit() {
     let fruitdata = random(fruitTypes);
     let randomX = random(300,500);
 
-    let one = new Sprite(randomX, height/2);
+    let one = new Sprite(randomX, height-25);
     one.diameter = 35;
     one.img = fruitdata.whole; // set the whole fruit image
     one.vel.y = random(-10, -6);

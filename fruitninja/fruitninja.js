@@ -59,6 +59,9 @@ function sliceFruit() {
         if (fruit.sliced) {
             continue; // skip this one, continue next member in the loop
         }
+
+        let distance = dist();
+        let hitRadius = fruit.diameter/2 + 5;
     }
 }
 // randomly choose a fruit to spawn

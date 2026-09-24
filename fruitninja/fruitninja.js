@@ -59,6 +59,7 @@ function splitFruit(xpos, ypos, fruitType) {
     // spawn left half
     let left = new Sprite(xpos-10, ypos, 35);
     left.img = fruitType.half1;
+    left.vel.x = -3; // veer left
     
     // you do spawn right half
 }

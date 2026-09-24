@@ -31,6 +31,8 @@ function setup() {
 
     fruitGroup = new Group(); // for easy management of fruits
     fruitHalves = new Group();
+
+    score = 0;
 }
 
 function draw() {

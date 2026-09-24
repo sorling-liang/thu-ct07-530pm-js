@@ -90,7 +90,7 @@ function spawnFruit() {
     one.vel.y = random(-15, -9);
     one.vel.x = random(-3, 3);
     one.friction = 0; // no reduction of speed when hitting another fruit
-    one.type = fruitdata;
+    one.type = fruitdata; // custom property type
     //one.debug = true; // see the hitbox
 
     fruitGroup.add(one);

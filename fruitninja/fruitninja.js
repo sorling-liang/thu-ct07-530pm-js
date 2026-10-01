@@ -63,9 +63,9 @@ function draw() {
 
 function displayHeader() {
     fill("white");
-    textSize(36);
+    textSize(30);
     textAlign(LEFT,CENTER);
-    text("My Score", 30, 30);
+    text("Score: " + score, 30, 30);
 }
 
 // function with parameters

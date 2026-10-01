@@ -113,6 +113,7 @@ function sliceFruit() {
             // call our new function using 3 parameters
             splitFruit( fx, fy, fruit.type );
 
+            // week 13: added score
             score++;
 
             break; // cut one fruit a time per function call

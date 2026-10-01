@@ -63,6 +63,9 @@ function draw() {
     }
 
     // write a loop for fruitGroup
+    for (let one of fruitGroup) {
+        
+    }
 }
 
 function displayHeader() {

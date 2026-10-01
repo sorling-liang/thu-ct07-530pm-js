@@ -61,6 +61,8 @@ function draw() {
 
         sliceFruit();
     }
+
+    // write a loop for fruitGroup
 }
 
 function displayHeader() {

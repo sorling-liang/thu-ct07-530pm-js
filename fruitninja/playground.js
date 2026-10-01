@@ -15,6 +15,8 @@ function draw() {
     // need the dojo image
     clear();
     image(dojoImg, 0,0, width, height);
+    
+    drawStartScreen();
 }
 function drawStartScreen() {
 // title of the Game: Fruit Ninja

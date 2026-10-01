@@ -22,6 +22,7 @@ function drawStartScreen() {
 // title of the Game: Fruit Ninja
 // instruction
 // Press SPACE or click to start Game.
+    fill("red");
     textSize(64);
     textAlign(CENTER, CENTER);
     text("Fruit Ninja", width/2, height/2);

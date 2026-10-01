@@ -57,7 +57,6 @@ function draw() {
         tail.life = 25; // lifetime measured in frameCount for that dot
 
         sliceFruit();
-        score++;
     }
 }
 

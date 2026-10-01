@@ -5,6 +5,7 @@ let fruitHalves;
 let fruitTypes;
 
 let score;
+let missed;
 
 function preload() {
     bg = loadImage("assets/dojobackground.png");
@@ -34,6 +35,7 @@ function setup() {
     world.gravity.y = 10;
 
     score = 0;
+    missed = 0;
 }
 
 function draw() {

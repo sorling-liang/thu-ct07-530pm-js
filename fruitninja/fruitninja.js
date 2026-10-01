@@ -1,7 +1,7 @@
 let bg;
 
 let fruitGroup; // spawnFruit
-let fruitHalves;
+let fruitHalves; // split into half
 
 let fruitTypes; // array of different fruits
 

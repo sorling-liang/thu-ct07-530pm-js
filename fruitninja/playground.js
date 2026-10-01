@@ -7,7 +7,7 @@ function preload() {
 }
 function setup() {
     new Canvas(800,600);
-    background("brown");
+    background("orange");
 }
 function draw() {
     // need the dojo image

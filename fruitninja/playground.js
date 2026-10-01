@@ -5,4 +5,4 @@
 
 // title of the Game: Fruit Ninja
 // instruction
-// 
+// Press SPACE or click to start Game.

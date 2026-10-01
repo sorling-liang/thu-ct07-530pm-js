@@ -23,6 +23,7 @@ function drawStartScreen() {
 // instruction
 // Press SPACE or click to start Game.
     fill(0, 180);
+    rect(0,0, width, height);
 
     fill("red");
     textAlign(CENTER, CENTER);

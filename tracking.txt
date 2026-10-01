@@ -3,3 +3,4 @@
 both flappybird and fruitninja index.html are missing the p5 sound addon library
 
 but found it in the root index.html that has the menu list
+see webroot\index.html

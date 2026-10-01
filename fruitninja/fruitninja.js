@@ -43,9 +43,9 @@ function draw() {
     clear();
     image(bg, 0,0, width,height); // background image
 
-    drawStartScreen();
-    return;
-    
+    // drawStartScreen();
+    // return;
+
     displayHeader(); // call the function
 
     // when to spawnFruit

@@ -43,7 +43,7 @@ function draw() {
     clear();
     image(bg, 0,0, width,height); // background image
 
-    displayHeader()
+    displayHeader(); // call the function
 
     // when to spawnFruit
     if (frameCount%90 === 0) {

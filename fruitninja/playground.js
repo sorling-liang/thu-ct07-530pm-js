@@ -6,7 +6,6 @@ let dojoImg;
 
 function preload() {
     dojoImg = loadImage("assets/dojobackground.png");
-
 }
 function setup() {
     new Canvas(800,600);
@@ -17,8 +16,6 @@ function draw() {
     clear();
     image(dojoImg, 0,0, width, height);
 }
-
-
 // title of the Game: Fruit Ninja
 // instruction
 // Press SPACE or click to start Game.

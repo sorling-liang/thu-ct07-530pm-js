@@ -10,7 +10,7 @@ function setup() {
     background("brown");
 }
 function draw() {
-
+    // need the dojo image
 }
 
 

@@ -111,6 +111,7 @@ function sliceFruit() {
         } // condition
     } // loop to close
 }
+
 // randomly choose a fruit to spawn
 function spawnFruit() {
     // randomly choose a fruit

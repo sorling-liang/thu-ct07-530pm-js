@@ -3,6 +3,12 @@
 // 2. setup, canvas 800 by 600
 // 3. draw
 
+
+
 // title of the Game: Fruit Ninja
 // instruction
 // Press SPACE or click to start Game.
+
+function drawStartScreen() {
+
+}

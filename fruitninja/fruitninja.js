@@ -34,8 +34,8 @@ function setup() {
     fruitHalves = new Group();
     world.gravity.y = 10;
 
-    score = 0;
-    missed = 0;
+    score = 0; // week 13
+    missed = 0; // week 14
 }
 
 function draw() {

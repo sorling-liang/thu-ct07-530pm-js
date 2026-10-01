@@ -65,6 +65,9 @@ function draw() {
     // write a loop for fruitGroup
     for (let one of fruitGroup) {
         // count the "missed" fruit
+        if (one.y > height + 50) {
+            
+        }
     }
 }
 

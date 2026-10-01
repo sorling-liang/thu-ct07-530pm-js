@@ -22,7 +22,7 @@ function drawStartScreen() {
 // title of the Game: Fruit Ninja
 // instruction
 // Press SPACE or click to start Game.
-    fill(0, 255); // 2nd number transparency
+    fill(0, 150); // 2nd number transparency
     rect(0,0, width, height);
 
     fill("red");

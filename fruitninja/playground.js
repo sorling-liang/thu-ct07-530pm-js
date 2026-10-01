@@ -26,4 +26,7 @@ function drawStartScreen() {
     textSize(64);
     textAlign(CENTER, CENTER);
     text("Fruit Ninja", width/2, height/2);
+
+    textSize(30);
+    text("", width/2, h)
 }

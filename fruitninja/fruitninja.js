@@ -43,6 +43,7 @@ function draw() {
     clear();
     image(bg, 0,0, width,height); // background image
 
+    dra
     displayHeader(); // call the function
 
     // when to spawnFruit

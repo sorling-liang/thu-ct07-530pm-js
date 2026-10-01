@@ -1,6 +1,6 @@
 let bg;
 
-let fruitGroup;
+let fruitGroup; // spawnFruit
 let fruitHalves;
 
 let fruitTypes; // array of different fruits

@@ -31,6 +31,7 @@ function setup() {
 
     fruitGroup = new Group(); // for easy management of fruits
     fruitHalves = new Group();
+    world.gravity.y = 10;
 
     score = 0;
 }
@@ -39,7 +40,7 @@ function draw() {
     clear();
     image(bg, 0,0, width,height); // background image
 
-    world.gravity.y = 10;
+    displayHeader()
 
     // when to spawnFruit
     if (frameCount%90 === 0) {

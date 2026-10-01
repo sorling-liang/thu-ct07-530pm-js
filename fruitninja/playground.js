@@ -24,8 +24,9 @@ function drawStartScreen() {
 // Press SPACE or click to start Game.
 
     fill("red");
-    textSize(64);
     textAlign(CENTER, CENTER);
+
+    textSize(64);
     text("Fruit Ninja", width/2, height/2);
 
     textSize(30);

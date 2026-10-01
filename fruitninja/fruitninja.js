@@ -2,7 +2,8 @@ let bg;
 
 let fruitGroup;
 let fruitHalves;
-let fruitTypes;
+
+let fruitTypes; // array of different fruits
 
 let score;
 let missed;

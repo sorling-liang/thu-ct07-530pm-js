@@ -23,5 +23,5 @@ function drawStartScreen() {
 // instruction
 // Press SPACE or click to start Game.
     textSize(40);
-    text("Fruit Ninja,")
+    text("Fruit Ninja", width/2, height/2);
 }

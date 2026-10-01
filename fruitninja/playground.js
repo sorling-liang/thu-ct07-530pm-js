@@ -12,7 +12,6 @@ function draw() {
 
 }
 
-new Canvas(800,600);
 
 // title of the Game: Fruit Ninja
 // instruction

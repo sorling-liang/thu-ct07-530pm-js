@@ -61,7 +61,9 @@ function draw() {
 }
 
 function displayHeader() {
-    
+    textSize(36);
+    textAlign(LEFT,CENTER);
+    text("My Score")
 }
 
 // function with parameters

@@ -15,11 +15,13 @@ function draw() {
     // need the dojo image
     clear();
     image(dojoImg, 0,0, width, height);
-    
+
     drawStartScreen();
 }
 function drawStartScreen() {
 // title of the Game: Fruit Ninja
 // instruction
 // Press SPACE or click to start Game.
+    textSize(40);
+    text("Fruit Ninja,")
 }

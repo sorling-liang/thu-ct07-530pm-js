@@ -28,5 +28,5 @@ function drawStartScreen() {
     text("Fruit Ninja", width/2, height/2);
 
     textSize(30);
-    text("", width/2, height/2+50);
+    text("Press SPACE or click to start", width/2, height/2+55);
 }

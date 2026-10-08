@@ -55,7 +55,7 @@ function draw() {
     if (( kb.presses('space') || mouse.presses() ) && gameState === "start") {
         // either space key press or mouse click
         gameState = "play";
-        bgMusic.loop(); // continuously playing
+        bgMusic.loop(); // playing non-stop
 
         score = 0;
         missed = 0;

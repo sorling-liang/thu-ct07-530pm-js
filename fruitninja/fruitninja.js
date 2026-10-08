@@ -5,8 +5,8 @@ let fruitHalves; // split into half
 
 let fruitTypes; // array of different fruits
 
-let score;
-let missed;
+let score = 0;
+let missed = 0;
 
 function preload() {
     bg = loadImage("assets/dojobackground.png");

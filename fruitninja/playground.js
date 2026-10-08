@@ -28,7 +28,6 @@ function drawGameOverScreen() {
     textSize(64);
     text("Game Over", width/2, height/2);
     fill("black");
-
     textSize(30);
     text("Press SPACE to restart", width/2, height/2+55);
 }

@@ -34,6 +34,7 @@ function drawGameOverScreen() {
     text("Missed Fruits: 23", width/2, height/2+95);
     text("Press SPACE to restart", width/2, height/2+135);
 }
+
 function drawStartScreen() {
     fill(0, 150); // 2nd number transparency
     rect(0,0, width, height);

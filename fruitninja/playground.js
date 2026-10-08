@@ -16,7 +16,7 @@ function draw() {
     clear();
     image(dojoImg, 0,0, width, height);
 
-    drawStartScreen();
+    drawGameOverScreen();
 }
 function drawGameOverScreen() {
     fill(0, 150); // 2nd number transparency

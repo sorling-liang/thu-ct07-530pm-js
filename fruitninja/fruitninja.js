@@ -102,9 +102,9 @@ function drawGameOverScreen() {
     text("Game Over", width/2, height/2);
     fill("white");
     textSize(24);
-    text("Score: " + score, width/2, height/2+55);
+    text("Score: " + score,          width/2, height/2+55);
     text("Missed Fruits: " + missed, width/2, height/2+95);
-    text("Press SPACE to restart", width/2, height/2+135);
+    text("Press SPACE to restart",   width/2, height/2+135);
 }
 
 function drawStartScreen() {

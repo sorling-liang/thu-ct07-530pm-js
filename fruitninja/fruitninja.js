@@ -16,7 +16,7 @@ let bgMusic;
 function preload() {
     bg = loadImage("assets/dojobackground.png");
 
-    slice_sfx = loadSound("");
+    slice_sfx = loadSound("assets/");
     bgMusic = loadSound("");
 
     let peach = {

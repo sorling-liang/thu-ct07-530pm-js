@@ -49,7 +49,10 @@ function draw() {
     if (( kb.presses('space') || mouse.presses() ) && gameState === "start") {
         // either space key press or mouse click
         gameState = "play";
-        sc
+        score = 0;
+        missed = 0;
+        fruitGroup.removeAll();
+        
     }
 
     if (gameState === "start") {

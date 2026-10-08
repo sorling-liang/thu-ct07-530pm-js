@@ -45,7 +45,7 @@ function draw() {
     clear();
     image(bg, 0,0, width,height); // background image
 
-    // listen
+    // listen only WHEN gameState = "start"
     if ( kb.presses('space') || mouse.presses() ) {
         // either space key press or mouse click
     }

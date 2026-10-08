@@ -45,8 +45,10 @@ function draw() {
     clear();
     image(bg, 0,0, width,height); // background image
 
-    drawStartScreen();
-    return;
+    if (gameState === "start") {
+        drawStartScreen();
+    }
+    
 
     displayHeader(); // call the function
 

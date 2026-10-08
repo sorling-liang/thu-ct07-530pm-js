@@ -10,7 +10,9 @@ let missed = 0;
 
 let gameState = "start"; // "start" or "play"
 
-let slice_sfx
+let slice_sfx;
+let bgMusic;
+
 function preload() {
     bg = loadImage("assets/dojobackground.png");
 

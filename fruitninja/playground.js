@@ -18,6 +18,7 @@ function draw() {
 
     drawGameOverScreen();
 }
+
 function drawGameOverScreen() {
     fill(0, 150); // 2nd number transparency
     rect(0,0, width, height);

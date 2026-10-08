@@ -47,9 +47,9 @@ function draw() {
 
     if (gameState === "start") {
         drawStartScreen();
+        return;
     }
     
-
     displayHeader(); // call the function
 
     // when to spawnFruit

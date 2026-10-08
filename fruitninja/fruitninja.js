@@ -45,10 +45,10 @@ function draw() {
     clear();
     image(bg, 0,0, width,height); // background image
 
-    if (kb.presses('space') || mouse.presses()) {
+    if ( kb.presses('space') || mouse.presses() ) {
         // either space key press or mouse click
     }
-    
+
     if (gameState === "start") {
         drawStartScreen();
         return;

@@ -43,8 +43,8 @@ function draw() {
     clear();
     image(bg, 0,0, width,height); // background image
 
-    drawStartScreen();
-    return;
+    // drawStartScreen();
+    // return;
 
     displayHeader(); // call the function
 
@@ -92,9 +92,9 @@ function displayHeader() {
     fill("white");
     textSize(30);
     textAlign(LEFT, CENTER);
-    text("Missed: " + missed, 330, 30);
+    text("Missed: " + missed, 25, 30);
     textAlign(CENTER, CENTER);
-    text("Score: " + score,    width/2, 30);
+    text("Score: " + score,   width/2, 30);
 }
 
 // function with parameters

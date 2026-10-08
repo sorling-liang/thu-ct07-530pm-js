@@ -28,7 +28,7 @@ function drawGameOverScreen() {
     textSize(64);
     text("Game Over", width/2, height/2);
     fill("white");
-    textSize(30);
+    textSize(24);
     text("Score: 0", width/2, height/2+55);
     text("Missed Fruits: 23", width/2, height/2+95);
     text("Press SPACE to restart", width/2, height/2+135);

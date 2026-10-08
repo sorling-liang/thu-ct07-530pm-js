@@ -55,7 +55,7 @@ function draw() {
     if (( kb.presses('space') || mouse.presses() ) && gameState === "start") {
         // either space key press or mouse click
         gameState = "play";
-        bgMusic.loop();
+        bgMusic.loop(); // contin
 
         score = 0;
         missed = 0;
@@ -175,7 +175,7 @@ function sliceFruit() {
         if (distance < hitRadius) {
             fruit.sliced = true; // i am slicing this one
             slice_sfx.play();
-            
+
             const fx = fruit.x; // remember
             const fy = fruit.y; // remember
 

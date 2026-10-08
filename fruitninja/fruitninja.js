@@ -8,7 +8,7 @@ let fruitTypes; // array of different fruits
 let score = 0;
 let missed = 0;
 
-let gameState = "start";
+let gameState = "start"; // "start" or "play"
 
 function preload() {
     bg = loadImage("assets/dojobackground.png");

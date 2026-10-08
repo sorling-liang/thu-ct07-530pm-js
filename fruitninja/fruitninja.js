@@ -174,7 +174,8 @@ function sliceFruit() {
 
         if (distance < hitRadius) {
             fruit.sliced = true; // i am slicing this one
-
+            slice_sfx.play();
+            
             const fx = fruit.x; // remember
             const fy = fruit.y; // remember
 

@@ -84,6 +84,7 @@ function draw() {
         tail.collider = "none";
         tail.life = 25; // lifetime measured in frameCount for that dot
 
+        slice_sfx.play();
         sliceFruit();
     }
 

@@ -87,6 +87,7 @@ function drawStartScreen() {
     textSize(30);
     text("Press SPACE or click to start", width/2, height/2+55);
 }
+
 function displayHeader() {
     fill("white");
     textSize(30);

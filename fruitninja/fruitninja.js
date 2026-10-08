@@ -49,7 +49,7 @@ function draw() {
     if (( kb.presses('space') || mouse.presses() ) && gameState === "start") {
         // either space key press or mouse click
         gameState = "play";
-        
+
         score = 0;
         missed = 0;
         // reset
@@ -90,6 +90,23 @@ function draw() {
         }
     }
 }
+
+function drawGameOverScreen() {
+    fill(0, 150); // 2nd number transparency
+    rect(0,0, width, height);
+
+    fill("red");
+    textAlign(CENTER, CENTER);
+
+    textSize(64);
+    text("Game Over", width/2, height/2);
+    fill("white");
+    textSize(24);
+    text("Score: 0", width/2, height/2+55);
+    text("Missed Fruits: 23", width/2, height/2+95);
+    text("Press SPACE to restart", width/2, height/2+135);
+}
+
 function drawStartScreen() {
     fill(0, 150); // 2nd number transparency
     rect(0,0, width, height);

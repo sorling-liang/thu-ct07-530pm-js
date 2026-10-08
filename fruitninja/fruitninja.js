@@ -82,7 +82,7 @@ function drawStartScreen() {
     fill(0, 150); // 2nd number transparency
     rect(0,0, width, height);
 
-    fill("red");
+    fill("white");
     textAlign(CENTER, CENTER);
 
     textSize(64);

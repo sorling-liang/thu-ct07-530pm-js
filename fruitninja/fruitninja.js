@@ -48,6 +48,8 @@ function draw() {
     // listen only WHEN gameState = "start"
     if (( kb.presses('space') || mouse.presses() ) && gameState === "start") {
         // either space key press or mouse click
+        gameState = "play";
+        sc
     }
 
     if (gameState === "start") {

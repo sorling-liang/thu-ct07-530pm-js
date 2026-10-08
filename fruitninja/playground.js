@@ -29,7 +29,7 @@ function drawGameOverScreen() {
     text("Game Over", width/2, height/2);
 
     textSize(30);
-    text("Press SPACE or click to start", width/2, height/2+55);
+    text("Press SPACE to restart", width/2, height/2+55);
 }
 function drawStartScreen() {
     fill(0, 150); // 2nd number transparency

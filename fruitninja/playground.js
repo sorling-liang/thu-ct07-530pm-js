@@ -18,6 +18,19 @@ function draw() {
 
     drawStartScreen();
 }
+function drawGameOverScreen() {
+    fill(0, 150); // 2nd number transparency
+    rect(0,0, width, height);
+
+    fill("red");
+    textAlign(CENTER, CENTER);
+
+    textSize(64);
+    text("Fruit Ninja", width/2, height/2);
+
+    textSize(30);
+    text("Press SPACE or click to start", width/2, height/2+55);
+}
 function drawStartScreen() {
     fill(0, 150); // 2nd number transparency
     rect(0,0, width, height);

@@ -93,8 +93,8 @@ function displayHeader() {
     textSize(30);
     textAlign(LEFT, CENTER);
     text("Missed: " + missed, 330, 30);
-    textAlign(LEFT, CENTER);
-    text("Score: " + score,    30, 30);
+    textAlign(CENTER, CENTER);
+    text("Score: " + score,    width/2, 30);
 }
 
 // function with parameters

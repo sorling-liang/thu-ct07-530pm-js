@@ -43,7 +43,7 @@ let gemCountElement;
 
 function setup() {
   const gameCanvas = new Canvas(MAZE[0].length * TILE_SIZE, MAZE.length * TILE_SIZE);
-  gameCanvas.parent('game-canvas');
+  document.getElementById('game-canvas').appendChild(gameCanvas);
   world.gravity.x = 0;
   world.gravity.y = 0;
 

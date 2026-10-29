@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temple Maze</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: system-ui, sans-serif;
+      background: #111;
+      color: #f3ead5;
+    }
+
+    body {
+      box-sizing: border-box;
+      min-height: 100vh;
+      margin: 0;
+      padding: 1.5rem 1rem 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    header, main {
+      width: min(100%, 660px);
+    }
+
+    header {
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0 0 0.35rem;
+      color: #f2c66d;
+    }
+
+    p {
+      margin: 0.4rem 0;
+      line-height: 1.5;
+    }
+
+    a {
+      color: #79d9d0;
+    }
+
+    .top-row, .hud {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .hud {
+      flex-wrap: wrap;
+      margin-bottom: 0.5rem;
+    }
+
+    #gem-count {
+      color: #f2c66d;
+      font-weight: 700;
+    }
+
+    #game-status {
+      min-height: 1.5em;
+      color: #b6e4cc;
+      font-weight: 600;
+    }
+
+    button {
+      border: 1px solid #f2c66d;
+      border-radius: 0.4rem;
+      padding: 0.55rem 0.8rem;
+      color: #111;
+      background: #f2c66d;
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #ffda8b;
+    }
+
+    #game-canvas {
+      width: 100%;
+      overflow: hidden;
+      border: 2px solid #8e7042;
+      border-radius: 0.5rem;
+      background: #211d18;
+      line-height: 0;
+    }
+
+    canvas {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .instructions {
+      margin-top: 0.65rem;
+      color: #c9c1b2;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 1rem 0.6rem;
+      }
+
+      .top-row, .hud {
+        align-items: flex-start;
+      }
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5play/3.26.5/planck.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5play/3.26.5/p5play.js"></script>
+</head>
+<body>
+  <header>
+    <div class="top-row">
+      <a href="../index.html">← Game Hub</a>
+      <button id="restart-button" type="button">Restart</button>
+    </div>
+    <h1>Temple Maze</h1>
+    <p>Find all five gems, then reach the golden exit. Avoid the temple guard!</p>
+    <p id="game-status" aria-live="polite">Collect the gems and find the exit.</p>
+  </header>
+
+  <main>
+    <div class="hud">
+      <span id="gem-count">Gems: 0 / 5</span>
+      <span>Guard patrols the lower hall</span>
+    </div>
+    <div id="game-canvas" aria-label="Temple Maze game"></div>
+    <p class="instructions">
+      Move with the arrow keys or W/A/S/D. Press R or select Restart to play again.
+    </p>
+  </main>
+
+  <script src="temple-maze.js"></script>
+</body>
+</html>
